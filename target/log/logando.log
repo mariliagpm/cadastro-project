@@ -1,0 +1,795 @@
+2021-03-17 23:40:00 [INFO ] [tests.HomeTest][JwtAuthenticationController] - [saveUser] User is created
+2021-03-17 23:40:00 [INFO ] [tests.HomeTest][AbstractController] - [addFeedbackMessage] Adding feedback message with code: feedback.message.login.created and params: [Ljava.lang.Object;@8cc6a7
+2021-03-17 23:40:00 [INFO ] [tests.HomeTest][AbstractController] - [addFeedbackMessage] Current locale is pt_BR
+2021-03-17 23:40:00 [INFO ] [tests.HomeTest][AbstractController] - [addFeedbackMessage] Localized message is: Login with username 37442789805 was created.
+2021-03-17 23:45:55 [INFO ] [tests.HomeTest][JwtAuthenticationController] - [saveUser] User is created
+2021-03-17 23:45:55 [INFO ] [tests.HomeTest][AbstractController] - [addFeedbackMessage] Adding feedback message with code: feedback.message.login.created and params: [Ljava.lang.Object;@6baf88e3
+2021-03-17 23:45:55 [INFO ] [tests.HomeTest][AbstractController] - [addFeedbackMessage] Current locale is pt_BR
+2021-03-17 23:45:55 [INFO ] [tests.HomeTest][AbstractController] - [addFeedbackMessage] Localized message is: Login with username 37442789805 was created.
+2021-03-18 00:21:39 [INFO ] [tests.HomeTest][JwtUserDetailsService] - [buscaPorEmail] Searching login by email
+2021-03-18 00:21:41 [INFO ] [tests.HomeTest][JwtUserDetailsService] - [buscaPorEmail] Connecting at database
+2021-03-18 00:21:41 [INFO ] [tests.HomeTest][JwtUserDetailsService] - [buscaPorEmail] Query login by email was sent
+2021-03-18 00:21:41 [INFO ] [tests.HomeTest][JwtUserDetailsService] - [userNameAlreadExist] Searching login by username
+2021-03-18 00:21:41 [INFO ] [tests.HomeTest][JwtUserDetailsService] - [userNameAlreadExist] User was not found
+2021-03-18 00:21:41 [INFO ] [tests.HomeTest][JwtUserDetailsService] - [save] Entering at save login method
+2021-03-18 00:21:41 [INFO ] [tests.HomeTest][JwtAuthenticationController] - [saveUser] User is created
+2021-03-18 00:21:41 [INFO ] [tests.HomeTest][AbstractController] - [addFeedbackMessage] Adding feedback message with code: feedback.message.login.created and params: [Ljava.lang.Object;@51e3647e
+2021-03-18 00:21:41 [INFO ] [tests.HomeTest][AbstractController] - [addFeedbackMessage] Current locale is pt_BR
+2021-03-18 00:21:41 [INFO ] [tests.HomeTest][AbstractController] - [addFeedbackMessage] Localized message is: Login with username 37442789805 was created.
+2021-03-18 00:22:16 [INFO ] [tests.HomeTest][JwtUserDetailsService] - [buscaPorEmail] Searching login by email
+2021-03-18 00:22:16 [INFO ] [tests.HomeTest][JwtUserDetailsService] - [buscaPorEmail] Connecting at database
+2021-03-18 00:22:16 [INFO ] [tests.HomeTest][JwtUserDetailsService] - [buscaPorEmail] Query login by email was sent
+2021-03-18 00:22:16 [INFO ] [tests.HomeTest][AbstractController] - [addErrorMessage] Adding error message with code: error.message.email.already.used and params: [Ljava.lang.Object;@2ccafca
+2021-03-18 00:22:16 [INFO ] [tests.HomeTest][AbstractController] - [addErrorMessage] Current locale is pt_BR
+2021-03-18 00:22:16 [INFO ] [tests.HomeTest][AbstractController] - [addErrorMessage] Localized message is: Email was already used in another account
+2021-03-18 00:22:36 [INFO ] [tests.HomeTest][JwtUserDetailsService] - [buscaPorEmail] Searching login by email
+2021-03-18 00:22:36 [INFO ] [tests.HomeTest][JwtUserDetailsService] - [buscaPorEmail] Connecting at database
+2021-03-18 00:22:36 [INFO ] [tests.HomeTest][JwtUserDetailsService] - [buscaPorEmail] Query login by email was sent
+2021-03-18 00:22:36 [INFO ] [tests.HomeTest][JwtUserDetailsService] - [userNameAlreadExist] Searching login by username
+2021-03-18 00:22:36 [INFO ] [tests.HomeTest][JwtUserDetailsService] - [userNameAlreadExist] User was  found
+2021-03-18 00:22:36 [INFO ] [tests.HomeTest][AbstractController] - [addErrorMessage] Adding error message with code: error.message.user.has.account and params: [Ljava.lang.Object;@45192c69
+2021-03-18 00:22:36 [INFO ] [tests.HomeTest][AbstractController] - [addErrorMessage] Current locale is pt_BR
+2021-03-18 00:22:36 [INFO ] [tests.HomeTest][AbstractController] - [addErrorMessage] Localized message is: User already has an account with this credentials
+2021-03-18 00:22:44 [INFO ] [tests.HomeTest][AbstractController] - [addErrorMessage] Adding error message with code: error.message.email.not.blank and params: [Ljava.lang.Object;@3c5576bb
+2021-03-18 00:22:44 [INFO ] [tests.HomeTest][AbstractController] - [addErrorMessage] Current locale is pt_BR
+2021-03-18 00:22:44 [INFO ] [tests.HomeTest][AbstractController] - [addErrorMessage] Localized message is: Email should not be empty
+2021-03-18 00:22:50 [INFO ] [tests.HomeTest][AbstractController] - [addErrorMessage] Adding error message with code: error.message.email.not.blank and params: [Ljava.lang.Object;@1e694fd4
+2021-03-18 00:22:50 [INFO ] [tests.HomeTest][AbstractController] - [addErrorMessage] Current locale is pt_BR
+2021-03-18 00:22:50 [INFO ] [tests.HomeTest][AbstractController] - [addErrorMessage] Localized message is: Email should not be empty
+2021-03-18 00:22:57 [INFO ] [tests.HomeTest][AbstractController] - [addErrorMessage] Adding error message with code: error.message.username.not.blank and params: [Ljava.lang.Object;@5844e19c
+2021-03-18 00:22:57 [INFO ] [tests.HomeTest][AbstractController] - [addErrorMessage] Current locale is pt_BR
+2021-03-18 00:22:57 [INFO ] [tests.HomeTest][AbstractController] - [addErrorMessage] Localized message is: Cpf should not be empty
+2021-03-18 00:23:07 [INFO ] [tests.HomeTest][AbstractController] - [addErrorMessage] Adding error message with code: error.message.password.not.blank and params: [Ljava.lang.Object;@39d5ca67
+2021-03-18 00:23:07 [INFO ] [tests.HomeTest][AbstractController] - [addErrorMessage] Current locale is pt_BR
+2021-03-18 00:23:07 [INFO ] [tests.HomeTest][AbstractController] - [addErrorMessage] Localized message is: Password should not be empty
+2021-03-18 00:23:23 [INFO ] [tests.HomeTest][AbstractController] - [addErrorMessage] Adding error message with code: error.message.password.not.blank and params: [Ljava.lang.Object;@2f4546a8
+2021-03-18 00:23:23 [INFO ] [tests.HomeTest][AbstractController] - [addErrorMessage] Current locale is pt_BR
+2021-03-18 00:23:23 [INFO ] [tests.HomeTest][AbstractController] - [addErrorMessage] Localized message is: Password should not be empty
+2021-03-18 00:23:44 [INFO ] [tests.HomeTest][JwtAuthenticationController] - [createAuthenticationToken] Login process was started
+2021-03-18 00:23:44 [INFO ] [tests.HomeTest][JwtUserDetailsService] - [userNameAlreadExist] Searching login by username
+2021-03-18 00:23:44 [INFO ] [tests.HomeTest][JwtUserDetailsService] - [userNameAlreadExist] User was  found
+2021-03-18 00:23:45 [INFO ] [tests.HomeTest][JwtAuthenticationController] - [createAuthenticationToken] Token was generated as eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiIzNzQ0Mjc4OTgwNSIsImV4cCI6MTYxNjA1NTgyNCwiaWF0IjoxNjE2MDM3ODI0fQ.douGfwFmpr5-gSv31i5a2D-SiYnlbXp4QSxolENLSeQOtXrSqSUnI0VWBhFPvh8ypoyVOBrJ2QMLRmVtyMU-yA
+2021-03-18 00:23:45 [INFO ] [tests.HomeTest][JwtAuthenticationController] - [createAuthenticationToken] User is logged
+2021-03-18 00:23:45 [INFO ] [tests.HomeTest][AbstractController] - [addFeedbackMessage] Adding feedback message with code: error.message.login.sucess and params: [Ljava.lang.Object;@2546133f
+2021-03-18 00:23:45 [INFO ] [tests.HomeTest][AbstractController] - [addFeedbackMessage] Current locale is pt_BR
+2021-03-18 00:23:45 [INFO ] [tests.HomeTest][AbstractController] - [addFeedbackMessage] Localized message is: User is logged
+2021-03-18 00:24:04 [INFO ] [tests.HomeTest][JwtAuthenticationController] - [createAuthenticationToken] Login process was started
+2021-03-18 00:24:04 [INFO ] [tests.HomeTest][JwtUserDetailsService] - [userNameAlreadExist] Searching login by username
+2021-03-18 00:24:04 [INFO ] [tests.HomeTest][JwtUserDetailsService] - [userNameAlreadExist] User was  found
+2021-03-18 00:24:04 [INFO ] [tests.HomeTest][JwtAuthenticationController] - [createAuthenticationToken] Credentials were wrong
+2021-03-18 00:24:04 [INFO ] [tests.HomeTest][AbstractController] - [addErrorMessage] Adding error message with code: error.message.login.bad.credencials and params: [Ljava.lang.Object;@51c00f8e
+2021-03-18 00:24:04 [INFO ] [tests.HomeTest][AbstractController] - [addErrorMessage] Current locale is pt_BR
+2021-03-18 00:24:04 [INFO ] [tests.HomeTest][AbstractController] - [addErrorMessage] Localized message is: Invalid Credentials
+2021-03-18 00:24:12 [INFO ] [tests.HomeTest][JwtAuthenticationController] - [createAuthenticationToken] Login process was started
+2021-03-18 00:24:12 [INFO ] [tests.HomeTest][JwtUserDetailsService] - [userNameAlreadExist] Searching login by username
+2021-03-18 00:24:12 [INFO ] [tests.HomeTest][JwtUserDetailsService] - [userNameAlreadExist] User was not found
+2021-03-18 00:24:12 [INFO ] [tests.HomeTest][JwtAuthenticationController] - [createAuthenticationToken] Credentials were wrong
+2021-03-18 00:24:12 [INFO ] [tests.HomeTest][AbstractController] - [addErrorMessage] Adding error message with code: error.message.login.bad.credencials and params: [Ljava.lang.Object;@66a53d6e
+2021-03-18 00:24:12 [INFO ] [tests.HomeTest][AbstractController] - [addErrorMessage] Current locale is pt_BR
+2021-03-18 00:24:12 [INFO ] [tests.HomeTest][AbstractController] - [addErrorMessage] Localized message is: Invalid Credentials
+2021-03-18 00:24:13 [INFO ] [tests.HomeTest][JwtAuthenticationController] - [createAuthenticationToken] Login process was started
+2021-03-18 00:24:13 [INFO ] [tests.HomeTest][JwtUserDetailsService] - [userNameAlreadExist] Searching login by username
+2021-03-18 00:24:13 [INFO ] [tests.HomeTest][JwtUserDetailsService] - [userNameAlreadExist] User was not found
+2021-03-18 00:24:13 [INFO ] [tests.HomeTest][JwtAuthenticationController] - [createAuthenticationToken] Credentials were wrong
+2021-03-18 00:24:13 [INFO ] [tests.HomeTest][AbstractController] - [addErrorMessage] Adding error message with code: error.message.login.bad.credencials and params: [Ljava.lang.Object;@62bab05b
+2021-03-18 00:24:13 [INFO ] [tests.HomeTest][AbstractController] - [addErrorMessage] Current locale is pt_BR
+2021-03-18 00:24:13 [INFO ] [tests.HomeTest][AbstractController] - [addErrorMessage] Localized message is: Invalid Credentials
+2021-03-18 00:24:22 [INFO ] [tests.HomeTest][JwtAuthenticationController] - [createAuthenticationToken] Login process was started
+2021-03-18 00:24:22 [INFO ] [tests.HomeTest][JwtUserDetailsService] - [userNameAlreadExist] Searching login by username
+2021-03-18 00:24:22 [INFO ] [tests.HomeTest][JwtUserDetailsService] - [userNameAlreadExist] User was not found
+2021-03-18 00:24:22 [INFO ] [tests.HomeTest][JwtAuthenticationController] - [createAuthenticationToken] Credentials were wrong
+2021-03-18 00:24:22 [INFO ] [tests.HomeTest][AbstractController] - [addErrorMessage] Adding error message with code: error.message.login.bad.credencials and params: [Ljava.lang.Object;@7791e190
+2021-03-18 00:24:22 [INFO ] [tests.HomeTest][AbstractController] - [addErrorMessage] Current locale is pt_BR
+2021-03-18 00:24:22 [INFO ] [tests.HomeTest][AbstractController] - [addErrorMessage] Localized message is: Invalid Credentials
+2021-03-18 00:28:10 [INFO ] [tests.HomeTest][JwtAuthenticationController] - [createAuthenticationToken] Login process was started
+2021-03-18 00:28:10 [INFO ] [tests.HomeTest][JwtUserDetailsService] - [userNameAlreadExist] Searching login by username
+2021-03-18 00:28:10 [INFO ] [tests.HomeTest][JwtUserDetailsService] - [userNameAlreadExist] User was  found
+2021-03-18 00:28:10 [INFO ] [tests.HomeTest][JwtAuthenticationController] - [createAuthenticationToken] Token was generated as eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiIzNzQ0Mjc4OTgwNSIsImV4cCI6MTYxNjA1NjA5MCwiaWF0IjoxNjE2MDM4MDkwfQ.5VNxiePnhWEBlbdzdPjuvnVEo9qx3JsHNqHOyr-vHVouFNJTkpZilaINX7hj17gIuR8jAQi1sJuVQvp5OtqGHg
+2021-03-18 00:28:10 [INFO ] [tests.HomeTest][JwtAuthenticationController] - [createAuthenticationToken] User is logged
+2021-03-18 00:28:10 [INFO ] [tests.HomeTest][AbstractController] - [addFeedbackMessage] Adding feedback message with code: error.message.login.sucess and params: [Ljava.lang.Object;@2728bbb8
+2021-03-18 00:28:10 [INFO ] [tests.HomeTest][AbstractController] - [addFeedbackMessage] Current locale is pt_BR
+2021-03-18 00:28:10 [INFO ] [tests.HomeTest][AbstractController] - [addFeedbackMessage] Localized message is: User is logged
+2021-03-18 01:00:33 [INFO ] [tests.HomeTest][JwtAuthenticationController] - [createAuthenticationToken] Login process was started
+2021-03-18 01:00:33 [INFO ] [tests.HomeTest][JwtUserDetailsService] - [userNameAlreadExist] Searching login by username
+2021-03-18 01:00:33 [INFO ] [tests.HomeTest][JwtUserDetailsService] - [userNameAlreadExist] User was not found
+2021-03-18 01:00:34 [INFO ] [tests.HomeTest][JwtAuthenticationController] - [createAuthenticationToken] Credentials were wrong
+2021-03-18 01:00:34 [INFO ] [tests.HomeTest][AbstractController] - [addErrorMessage] Adding error message with code: error.message.login.bad.credencials and params: [Ljava.lang.Object;@150a34fa
+2021-03-18 01:00:34 [INFO ] [tests.HomeTest][AbstractController] - [addErrorMessage] Current locale is pt_BR
+2021-03-18 01:00:34 [INFO ] [tests.HomeTest][AbstractController] - [addErrorMessage] Localized message is: Invalid Credentials
+2021-03-18 01:41:08 [INFO ] [tests.HomeTest][JwtAuthenticationController] - [createAuthenticationToken] Login process was started
+2021-03-18 01:41:08 [INFO ] [tests.HomeTest][JwtUserDetailsService] - [userNameAlreadExist] Searching login by username
+2021-03-18 01:41:08 [INFO ] [tests.HomeTest][JwtUserDetailsService] - [userNameAlreadExist] User was not found
+2021-03-18 01:41:08 [INFO ] [tests.HomeTest][JwtAuthenticationController] - [createAuthenticationToken] Credentials were wrong
+2021-03-18 01:41:08 [INFO ] [tests.HomeTest][AbstractController] - [addErrorMessage] Adding error message with code: error.message.login.bad.credencials and params: [Ljava.lang.Object;@1e4b0a67
+2021-03-18 01:41:08 [INFO ] [tests.HomeTest][AbstractController] - [addErrorMessage] Current locale is pt_BR
+2021-03-18 01:41:08 [INFO ] [tests.HomeTest][AbstractController] - [addErrorMessage] Localized message is: Invalid Credentials
+2021-03-18 01:41:11 [INFO ] [tests.HomeTest][JwtAuthenticationController] - [createAuthenticationToken] Login process was started
+2021-03-18 01:41:11 [INFO ] [tests.HomeTest][JwtUserDetailsService] - [userNameAlreadExist] Searching login by username
+2021-03-18 01:41:11 [INFO ] [tests.HomeTest][JwtUserDetailsService] - [userNameAlreadExist] User was not found
+2021-03-18 01:41:11 [INFO ] [tests.HomeTest][JwtAuthenticationController] - [createAuthenticationToken] Credentials were wrong
+2021-03-18 01:41:11 [INFO ] [tests.HomeTest][AbstractController] - [addErrorMessage] Adding error message with code: error.message.login.bad.credencials and params: [Ljava.lang.Object;@6a6457c4
+2021-03-18 01:41:11 [INFO ] [tests.HomeTest][AbstractController] - [addErrorMessage] Current locale is pt_BR
+2021-03-18 01:41:11 [INFO ] [tests.HomeTest][AbstractController] - [addErrorMessage] Localized message is: Invalid Credentials
+2021-03-18 01:41:54 [INFO ] [tests.HomeTest][JwtAuthenticationController] - [createAuthenticationToken] Login process was started
+2021-03-18 01:41:54 [INFO ] [tests.HomeTest][JwtUserDetailsService] - [userNameAlreadExist] Searching login by username
+2021-03-18 01:41:54 [INFO ] [tests.HomeTest][JwtUserDetailsService] - [userNameAlreadExist] User was not found
+2021-03-18 01:41:55 [INFO ] [tests.HomeTest][JwtAuthenticationController] - [createAuthenticationToken] Credentials were wrong
+2021-03-18 01:41:55 [INFO ] [tests.HomeTest][AbstractController] - [addErrorMessage] Adding error message with code: error.message.login.bad.credencials and params: [Ljava.lang.Object;@2b62815e
+2021-03-18 01:41:55 [INFO ] [tests.HomeTest][AbstractController] - [addErrorMessage] Current locale is pt_BR
+2021-03-18 01:41:55 [INFO ] [tests.HomeTest][AbstractController] - [addErrorMessage] Localized message is: Invalid Credentials
+2021-03-18 01:42:08 [INFO ] [tests.HomeTest][JwtAuthenticationController] - [createAuthenticationToken] Login process was started
+2021-03-18 01:42:08 [INFO ] [tests.HomeTest][JwtUserDetailsService] - [userNameAlreadExist] Searching login by username
+2021-03-18 01:42:08 [INFO ] [tests.HomeTest][JwtUserDetailsService] - [userNameAlreadExist] User was not found
+2021-03-18 01:42:08 [INFO ] [tests.HomeTest][JwtAuthenticationController] - [createAuthenticationToken] Credentials were wrong
+2021-03-18 01:42:08 [INFO ] [tests.HomeTest][AbstractController] - [addErrorMessage] Adding error message with code: error.message.login.bad.credencials and params: [Ljava.lang.Object;@750ee7c4
+2021-03-18 01:42:08 [INFO ] [tests.HomeTest][AbstractController] - [addErrorMessage] Current locale is pt_BR
+2021-03-18 01:42:08 [INFO ] [tests.HomeTest][AbstractController] - [addErrorMessage] Localized message is: Invalid Credentials
+2021-03-18 01:43:43 [INFO ] [tests.HomeTest][JwtAuthenticationController] - [createAuthenticationToken] Login process was started
+2021-03-18 01:43:43 [INFO ] [tests.HomeTest][JwtUserDetailsService] - [userNameAlreadExist] Searching login by username
+2021-03-18 01:43:43 [INFO ] [tests.HomeTest][JwtUserDetailsService] - [userNameAlreadExist] User was not found
+2021-03-18 01:43:43 [INFO ] [tests.HomeTest][JwtAuthenticationController] - [createAuthenticationToken] Credentials were wrong
+2021-03-18 01:43:43 [INFO ] [tests.HomeTest][AbstractController] - [addErrorMessage] Adding error message with code: error.message.login.bad.credencials and params: [Ljava.lang.Object;@1d8a2301
+2021-03-18 01:43:43 [INFO ] [tests.HomeTest][AbstractController] - [addErrorMessage] Current locale is pt_BR
+2021-03-18 01:43:43 [INFO ] [tests.HomeTest][AbstractController] - [addErrorMessage] Localized message is: Invalid Credentials
+2021-03-18 01:46:05 [INFO ] [tests.HomeTest][JwtAuthenticationController] - [createAuthenticationToken] Login process was started
+2021-03-18 01:46:05 [INFO ] [tests.HomeTest][JwtUserDetailsService] - [userNameAlreadExist] Searching login by username
+2021-03-18 01:46:05 [INFO ] [tests.HomeTest][JwtUserDetailsService] - [userNameAlreadExist] User was not found
+2021-03-18 01:46:05 [INFO ] [tests.HomeTest][JwtAuthenticationController] - [createAuthenticationToken] Credentials were wrong
+2021-03-18 01:46:05 [INFO ] [tests.HomeTest][AbstractController] - [addErrorMessage] Adding error message with code: error.message.login.bad.credencials and params: [Ljava.lang.Object;@2cf5d01d
+2021-03-18 01:46:05 [INFO ] [tests.HomeTest][AbstractController] - [addErrorMessage] Current locale is pt_BR
+2021-03-18 01:46:05 [INFO ] [tests.HomeTest][AbstractController] - [addErrorMessage] Localized message is: Invalid Credentials
+2021-03-18 01:47:21 [INFO ] [tests.HomeTest][JwtAuthenticationController] - [createAuthenticationToken] Login process was started
+2021-03-18 01:47:21 [INFO ] [tests.HomeTest][JwtUserDetailsService] - [userNameAlreadExist] Searching login by username
+2021-03-18 01:47:21 [INFO ] [tests.HomeTest][JwtUserDetailsService] - [userNameAlreadExist] User was not found
+2021-03-18 01:47:21 [INFO ] [tests.HomeTest][JwtAuthenticationController] - [createAuthenticationToken] Credentials were wrong
+2021-03-18 01:47:21 [INFO ] [tests.HomeTest][AbstractController] - [addErrorMessage] Adding error message with code: error.message.login.bad.credencials and params: [Ljava.lang.Object;@49601ee
+2021-03-18 01:47:21 [INFO ] [tests.HomeTest][AbstractController] - [addErrorMessage] Current locale is pt_BR
+2021-03-18 01:47:21 [INFO ] [tests.HomeTest][AbstractController] - [addErrorMessage] Localized message is: Invalid Credentials
+2021-03-18 01:47:26 [INFO ] [tests.HomeTest][JwtAuthenticationController] - [createAuthenticationToken] Login process was started
+2021-03-18 01:47:26 [INFO ] [tests.HomeTest][JwtUserDetailsService] - [userNameAlreadExist] Searching login by username
+2021-03-18 01:47:26 [INFO ] [tests.HomeTest][JwtUserDetailsService] - [userNameAlreadExist] User was not found
+2021-03-18 01:47:27 [INFO ] [tests.HomeTest][JwtAuthenticationController] - [createAuthenticationToken] Credentials were wrong
+2021-03-18 01:47:27 [INFO ] [tests.HomeTest][AbstractController] - [addErrorMessage] Adding error message with code: error.message.login.bad.credencials and params: [Ljava.lang.Object;@5406ec09
+2021-03-18 01:47:27 [INFO ] [tests.HomeTest][AbstractController] - [addErrorMessage] Current locale is pt_BR
+2021-03-18 01:47:27 [INFO ] [tests.HomeTest][AbstractController] - [addErrorMessage] Localized message is: Invalid Credentials
+2021-03-18 01:51:50 [INFO ] [tests.HomeTest][JwtAuthenticationController] - [createAuthenticationToken] Login process was started
+2021-03-18 01:51:50 [INFO ] [tests.HomeTest][JwtUserDetailsService] - [userNameAlreadExist] Searching login by username
+2021-03-18 01:51:50 [INFO ] [tests.HomeTest][JwtUserDetailsService] - [userNameAlreadExist] User was not found
+2021-03-18 01:51:51 [INFO ] [tests.HomeTest][JwtAuthenticationController] - [createAuthenticationToken] Credentials were wrong
+2021-03-18 01:51:51 [INFO ] [tests.HomeTest][AbstractController] - [addErrorMessage] Adding error message with code: error.message.login.bad.credencials and params: [Ljava.lang.Object;@7f92e846
+2021-03-18 01:51:51 [INFO ] [tests.HomeTest][AbstractController] - [addErrorMessage] Current locale is pt_BR
+2021-03-18 01:51:51 [INFO ] [tests.HomeTest][AbstractController] - [addErrorMessage] Localized message is: Invalid Credentials
+2021-03-18 02:11:17 [INFO ] [tests.HomeTest][JwtUserDetailsService] - [buscaPorEmail] Searching login by email
+2021-03-18 02:11:19 [INFO ] [tests.HomeTest][JwtUserDetailsService] - [buscaPorEmail] Connecting at database
+2021-03-18 02:11:19 [INFO ] [tests.HomeTest][JwtUserDetailsService] - [buscaPorEmail] Query login by email was sent
+2021-03-18 02:11:19 [INFO ] [tests.HomeTest][JwtUserDetailsService] - [userNameAlreadExist] Searching login by username
+2021-03-18 02:11:19 [INFO ] [tests.HomeTest][JwtUserDetailsService] - [userNameAlreadExist] User was not found
+2021-03-18 02:11:19 [INFO ] [tests.HomeTest][JwtUserDetailsService] - [save] Entering at save login method
+2021-03-18 02:11:20 [INFO ] [tests.HomeTest][JwtAuthenticationController] - [saveUser] User is created
+2021-03-18 02:11:20 [INFO ] [tests.HomeTest][AbstractController] - [addFeedbackMessage] Adding feedback message with code: feedback.message.login.created and params: [Ljava.lang.Object;@25562f39
+2021-03-18 02:11:20 [INFO ] [tests.HomeTest][AbstractController] - [addFeedbackMessage] Current locale is pt_BR
+2021-03-18 02:11:20 [INFO ] [tests.HomeTest][AbstractController] - [addFeedbackMessage] Localized message is: Login with username 37442789801 was created.
+2021-03-18 02:11:25 [INFO ] [tests.HomeTest][JwtUserDetailsService] - [buscaPorEmail] Searching login by email
+2021-03-18 02:11:25 [INFO ] [tests.HomeTest][JwtUserDetailsService] - [buscaPorEmail] Connecting at database
+2021-03-18 02:11:25 [INFO ] [tests.HomeTest][JwtUserDetailsService] - [buscaPorEmail] Query login by email was sent
+2021-03-18 02:11:25 [INFO ] [tests.HomeTest][AbstractController] - [addErrorMessage] Adding error message with code: error.message.email.already.used and params: [Ljava.lang.Object;@33d95fd1
+2021-03-18 02:11:25 [INFO ] [tests.HomeTest][AbstractController] - [addErrorMessage] Current locale is pt_BR
+2021-03-18 02:11:25 [INFO ] [tests.HomeTest][AbstractController] - [addErrorMessage] Localized message is: Email was already used in another account
+2021-03-18 02:11:34 [INFO ] [tests.HomeTest][JwtUserDetailsService] - [buscaPorEmail] Searching login by email
+2021-03-18 02:11:35 [INFO ] [tests.HomeTest][JwtUserDetailsService] - [buscaPorEmail] Connecting at database
+2021-03-18 02:11:35 [INFO ] [tests.HomeTest][JwtUserDetailsService] - [buscaPorEmail] Query login by email was sent
+2021-03-18 02:11:35 [INFO ] [tests.HomeTest][AbstractController] - [addErrorMessage] Adding error message with code: error.message.email.already.used and params: [Ljava.lang.Object;@6fc24ab
+2021-03-18 02:11:35 [INFO ] [tests.HomeTest][AbstractController] - [addErrorMessage] Current locale is pt_BR
+2021-03-18 02:11:35 [INFO ] [tests.HomeTest][AbstractController] - [addErrorMessage] Localized message is: Email was already used in another account
+2021-03-18 02:11:44 [INFO ] [tests.HomeTest][JwtUserDetailsService] - [buscaPorEmail] Searching login by email
+2021-03-18 02:11:45 [INFO ] [tests.HomeTest][JwtUserDetailsService] - [buscaPorEmail] Connecting at database
+2021-03-18 02:11:45 [INFO ] [tests.HomeTest][JwtUserDetailsService] - [buscaPorEmail] Query login by email was sent
+2021-03-18 02:11:45 [INFO ] [tests.HomeTest][AbstractController] - [addErrorMessage] Adding error message with code: error.message.email.already.used and params: [Ljava.lang.Object;@382aee4
+2021-03-18 02:11:45 [INFO ] [tests.HomeTest][AbstractController] - [addErrorMessage] Current locale is pt_BR
+2021-03-18 02:11:45 [INFO ] [tests.HomeTest][AbstractController] - [addErrorMessage] Localized message is: Email was already used in another account
+2021-03-18 02:11:56 [INFO ] [tests.HomeTest][JwtUserDetailsService] - [buscaPorEmail] Searching login by email
+2021-03-18 02:11:58 [INFO ] [tests.HomeTest][JwtUserDetailsService] - [buscaPorEmail] Connecting at database
+2021-03-18 02:11:58 [INFO ] [tests.HomeTest][JwtUserDetailsService] - [buscaPorEmail] Query login by email was sent
+2021-03-18 02:11:58 [INFO ] [tests.HomeTest][JwtUserDetailsService] - [userNameAlreadExist] Searching login by username
+2021-03-18 02:11:58 [INFO ] [tests.HomeTest][JwtUserDetailsService] - [userNameAlreadExist] User was  found
+2021-03-18 02:11:58 [INFO ] [tests.HomeTest][AbstractController] - [addErrorMessage] Adding error message with code: error.message.user.has.account and params: [Ljava.lang.Object;@51d026ea
+2021-03-18 02:11:58 [INFO ] [tests.HomeTest][AbstractController] - [addErrorMessage] Current locale is pt_BR
+2021-03-18 02:11:58 [INFO ] [tests.HomeTest][AbstractController] - [addErrorMessage] Localized message is: User already has an account with this credentials
+2021-03-18 02:12:22 [INFO ] [tests.HomeTest][JwtAuthenticationController] - [createAuthenticationToken] Login process was started
+2021-03-18 02:12:22 [INFO ] [tests.HomeTest][JwtUserDetailsService] - [userNameAlreadExist] Searching login by username
+2021-03-18 02:12:22 [INFO ] [tests.HomeTest][JwtUserDetailsService] - [userNameAlreadExist] User was not found
+2021-03-18 02:12:23 [INFO ] [tests.HomeTest][JwtAuthenticationController] - [createAuthenticationToken] Credentials were wrong
+2021-03-18 02:12:23 [INFO ] [tests.HomeTest][AbstractController] - [addErrorMessage] Adding error message with code: error.message.login.bad.credencials and params: [Ljava.lang.Object;@4128da76
+2021-03-18 02:12:23 [INFO ] [tests.HomeTest][AbstractController] - [addErrorMessage] Current locale is pt_BR
+2021-03-18 02:12:23 [INFO ] [tests.HomeTest][AbstractController] - [addErrorMessage] Localized message is: Invalid Credentials
+2021-03-18 02:12:33 [INFO ] [tests.HomeTest][JwtAuthenticationController] - [createAuthenticationToken] Login process was started
+2021-03-18 02:12:33 [INFO ] [tests.HomeTest][JwtUserDetailsService] - [userNameAlreadExist] Searching login by username
+2021-03-18 02:12:33 [INFO ] [tests.HomeTest][JwtUserDetailsService] - [userNameAlreadExist] User was  found
+2021-03-18 02:12:33 [INFO ] [tests.HomeTest][JwtAuthenticationController] - [createAuthenticationToken] Token was generated as eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiIzNzQ0Mjc4OTgwMSIsImV4cCI6MTYxNjA2MjM1MywiaWF0IjoxNjE2MDQ0MzUzfQ.aMt4ajSnealMmi9FggZcEXEPNUEloFr5LcDc-9Rekv2s-A1LcBb22tLpFeNRFY5qjl7EhiZiuNxWFDgOpqoPjA
+2021-03-18 02:12:33 [INFO ] [tests.HomeTest][JwtAuthenticationController] - [createAuthenticationToken] User is logged
+2021-03-18 02:12:33 [INFO ] [tests.HomeTest][AbstractController] - [addFeedbackMessage] Adding feedback message with code: error.message.login.sucess and params: [Ljava.lang.Object;@150d5bb3
+2021-03-18 02:12:33 [INFO ] [tests.HomeTest][AbstractController] - [addFeedbackMessage] Current locale is pt_BR
+2021-03-18 02:12:33 [INFO ] [tests.HomeTest][AbstractController] - [addFeedbackMessage] Localized message is: User is logged
+2021-03-18 02:12:58 [INFO ] [tests.HomeTest][JwtAuthenticationController] - [createAuthenticationToken] Login process was started
+2021-03-18 02:12:58 [INFO ] [tests.HomeTest][JwtUserDetailsService] - [userNameAlreadExist] Searching login by username
+2021-03-18 02:12:58 [INFO ] [tests.HomeTest][JwtUserDetailsService] - [userNameAlreadExist] User was not found
+2021-03-18 02:12:58 [INFO ] [tests.HomeTest][JwtAuthenticationController] - [createAuthenticationToken] Credentials were wrong
+2021-03-18 02:12:58 [INFO ] [tests.HomeTest][AbstractController] - [addErrorMessage] Adding error message with code: error.message.login.bad.credencials and params: [Ljava.lang.Object;@4711d91e
+2021-03-18 02:12:58 [INFO ] [tests.HomeTest][AbstractController] - [addErrorMessage] Current locale is pt_BR
+2021-03-18 02:12:58 [INFO ] [tests.HomeTest][AbstractController] - [addErrorMessage] Localized message is: Invalid Credentials
+2021-03-18 02:19:10 [INFO ] [tests.HomeTest][JwtAuthenticationController] - [createAuthenticationToken] Login process was started
+2021-03-18 02:19:10 [INFO ] [tests.HomeTest][JwtUserDetailsService] - [userNameAlreadExist] Searching login by username
+2021-03-18 02:19:10 [INFO ] [tests.HomeTest][JwtUserDetailsService] - [userNameAlreadExist] User was not found
+2021-03-18 02:19:10 [INFO ] [tests.HomeTest][JwtAuthenticationController] - [createAuthenticationToken] Credentials were wrong
+2021-03-18 02:19:10 [INFO ] [tests.HomeTest][AbstractController] - [addErrorMessage] Adding error message with code: error.message.login.bad.credencials and params: [Ljava.lang.Object;@77b9de73
+2021-03-18 02:19:10 [INFO ] [tests.HomeTest][AbstractController] - [addErrorMessage] Current locale is pt_BR
+2021-03-18 02:19:10 [INFO ] [tests.HomeTest][AbstractController] - [addErrorMessage] Localized message is: Invalid Credentials
+2021-03-18 02:19:14 [INFO ] [tests.HomeTest][JwtUserDetailsService] - [buscaPorEmail] Searching login by email
+2021-03-18 02:19:15 [INFO ] [tests.HomeTest][JwtUserDetailsService] - [buscaPorEmail] Connecting at database
+2021-03-18 02:19:15 [INFO ] [tests.HomeTest][JwtUserDetailsService] - [buscaPorEmail] Query login by email was sent
+2021-03-18 02:19:15 [INFO ] [tests.HomeTest][JwtUserDetailsService] - [userNameAlreadExist] Searching login by username
+2021-03-18 02:19:15 [INFO ] [tests.HomeTest][JwtUserDetailsService] - [userNameAlreadExist] User was not found
+2021-03-18 02:19:15 [INFO ] [tests.HomeTest][JwtUserDetailsService] - [save] Entering at save login method
+2021-03-18 02:19:16 [INFO ] [tests.HomeTest][JwtAuthenticationController] - [saveUser] User is created
+2021-03-18 02:19:16 [INFO ] [tests.HomeTest][AbstractController] - [addFeedbackMessage] Adding feedback message with code: feedback.message.login.created and params: [Ljava.lang.Object;@57de3269
+2021-03-18 02:19:16 [INFO ] [tests.HomeTest][AbstractController] - [addFeedbackMessage] Current locale is pt_BR
+2021-03-18 02:19:16 [INFO ] [tests.HomeTest][AbstractController] - [addFeedbackMessage] Localized message is: Login with username 37442789801 was created.
+2021-03-18 02:19:36 [INFO ] [tests.HomeTest][JwtAuthenticationController] - [createAuthenticationToken] Login process was started
+2021-03-18 02:19:36 [INFO ] [tests.HomeTest][JwtUserDetailsService] - [userNameAlreadExist] Searching login by username
+2021-03-18 02:19:36 [INFO ] [tests.HomeTest][JwtUserDetailsService] - [userNameAlreadExist] User was  found
+2021-03-18 02:19:36 [INFO ] [tests.HomeTest][JwtAuthenticationController] - [createAuthenticationToken] Token was generated as eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiIzNzQ0Mjc4OTgwMSIsImV4cCI6MTYxNjA2Mjc3NiwiaWF0IjoxNjE2MDQ0Nzc2fQ.mCUNq9kAkM-9vtRScnPmXIIaDfKB14mzgBJO3T8lbz3GYZrr5KKVBzympjGfHQsGutLissHun7YFrWnCYvRQUg
+2021-03-18 02:19:36 [INFO ] [tests.HomeTest][JwtAuthenticationController] - [createAuthenticationToken] User is logged
+2021-03-18 02:19:36 [INFO ] [tests.HomeTest][AbstractController] - [addFeedbackMessage] Adding feedback message with code: error.message.login.sucess and params: [Ljava.lang.Object;@40c957a4
+2021-03-18 02:19:36 [INFO ] [tests.HomeTest][AbstractController] - [addFeedbackMessage] Current locale is pt_BR
+2021-03-18 02:19:36 [INFO ] [tests.HomeTest][AbstractController] - [addFeedbackMessage] Localized message is: User is logged
+2021-03-18 02:35:21 [INFO ] [tests.HomeTest][JwtAuthenticationController] - [createAuthenticationToken] Login process was started
+2021-03-18 02:35:21 [INFO ] [tests.HomeTest][JwtUserDetailsService] - [userNameAlreadExist] Searching login by username
+2021-03-18 02:35:21 [INFO ] [tests.HomeTest][JwtUserDetailsService] - [userNameAlreadExist] User was not found
+2021-03-18 02:35:21 [INFO ] [tests.HomeTest][JwtAuthenticationController] - [createAuthenticationToken] Credentials were wrong
+2021-03-18 02:35:21 [INFO ] [tests.HomeTest][AbstractController] - [addErrorMessage] Adding error message with code: error.message.login.bad.credencials and params: [Ljava.lang.Object;@63b73e34
+2021-03-18 02:35:21 [INFO ] [tests.HomeTest][AbstractController] - [addErrorMessage] Current locale is pt_BR
+2021-03-18 02:35:21 [INFO ] [tests.HomeTest][AbstractController] - [addErrorMessage] Localized message is: Invalid Credentials
+2021-03-18 02:35:27 [INFO ] [tests.HomeTest][JwtUserDetailsService] - [buscaPorEmail] Searching login by email
+2021-03-18 02:35:28 [INFO ] [tests.HomeTest][JwtUserDetailsService] - [buscaPorEmail] Connecting at database
+2021-03-18 02:35:28 [INFO ] [tests.HomeTest][JwtUserDetailsService] - [buscaPorEmail] Query login by email was sent
+2021-03-18 02:35:28 [INFO ] [tests.HomeTest][JwtUserDetailsService] - [userNameAlreadExist] Searching login by username
+2021-03-18 02:35:28 [INFO ] [tests.HomeTest][JwtUserDetailsService] - [userNameAlreadExist] User was not found
+2021-03-18 02:35:28 [INFO ] [tests.HomeTest][JwtUserDetailsService] - [save] Entering at save login method
+2021-03-18 02:35:28 [INFO ] [tests.HomeTest][JwtAuthenticationController] - [saveUser] User is created
+2021-03-18 02:35:28 [INFO ] [tests.HomeTest][AbstractController] - [addFeedbackMessage] Adding feedback message with code: feedback.message.login.created and params: [Ljava.lang.Object;@280753cc
+2021-03-18 02:35:28 [INFO ] [tests.HomeTest][AbstractController] - [addFeedbackMessage] Current locale is pt_BR
+2021-03-18 02:35:28 [INFO ] [tests.HomeTest][AbstractController] - [addFeedbackMessage] Localized message is: Login with username 37442789801 was created.
+2021-03-18 02:35:32 [INFO ] [tests.HomeTest][JwtAuthenticationController] - [createAuthenticationToken] Login process was started
+2021-03-18 02:35:32 [INFO ] [tests.HomeTest][JwtUserDetailsService] - [userNameAlreadExist] Searching login by username
+2021-03-18 02:35:32 [INFO ] [tests.HomeTest][JwtUserDetailsService] - [userNameAlreadExist] User was  found
+2021-03-18 02:35:32 [INFO ] [tests.HomeTest][JwtAuthenticationController] - [createAuthenticationToken] Token was generated as eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiIzNzQ0Mjc4OTgwMSIsImV4cCI6MTYxNjA2MzczMiwiaWF0IjoxNjE2MDQ1NzMyfQ.Wy1xEiyPUYQ4BRytARqhIn82mSIdQ0ReJml6cffS_GatfkI0keEQJAfgt56VSN4RlkMJUC_N3zXMKzGZAretZQ
+2021-03-18 02:35:32 [INFO ] [tests.HomeTest][JwtAuthenticationController] - [createAuthenticationToken] User is logged
+2021-03-18 02:35:32 [INFO ] [tests.HomeTest][AbstractController] - [addErrorMessage] Adding error message with code: error.message.login.sucess and params: [Ljava.lang.Object;@5967b67e
+2021-03-18 02:35:32 [INFO ] [tests.HomeTest][AbstractController] - [addErrorMessage] Current locale is pt_BR
+2021-03-18 02:35:32 [INFO ] [tests.HomeTest][AbstractController] - [addErrorMessage] Localized message is: User is logged
+2021-03-18 02:35:32 [INFO ] [tests.HomeTest][JwtAuthenticationController] - [createAuthenticationToken] Login failed
+2021-03-18 02:35:32 [INFO ] [tests.HomeTest][AbstractController] - [addErrorMessage] Adding error message with code: error.message.login.default and params: [Ljava.lang.Object;@1ad92299
+2021-03-18 02:35:32 [INFO ] [tests.HomeTest][AbstractController] - [addErrorMessage] Current locale is pt_BR
+2021-03-18 02:35:32 [INFO ] [tests.HomeTest][AbstractController] - [addErrorMessage] Localized message is: It was no possivel to login
+2021-03-18 02:35:46 [INFO ] [tests.HomeTest][JwtAuthenticationController] - [createAuthenticationToken] Login process was started
+2021-03-18 02:35:46 [INFO ] [tests.HomeTest][JwtUserDetailsService] - [userNameAlreadExist] Searching login by username
+2021-03-18 02:35:46 [INFO ] [tests.HomeTest][JwtUserDetailsService] - [userNameAlreadExist] User was  found
+2021-03-18 02:35:46 [INFO ] [tests.HomeTest][JwtAuthenticationController] - [createAuthenticationToken] Token was generated as eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiIzNzQ0Mjc4OTgwMSIsImV4cCI6MTYxNjA2Mzc0NiwiaWF0IjoxNjE2MDQ1NzQ2fQ.1qo6kwBm1aaI8YL3rU64R_xCoUamVc1nXyWZrkqf6jn-wqhTcG16EsW9SDEDiONWlRLrhM92dVRZ-HMd1bSk6A
+2021-03-18 02:35:46 [INFO ] [tests.HomeTest][JwtAuthenticationController] - [createAuthenticationToken] User is logged
+2021-03-18 02:35:46 [INFO ] [tests.HomeTest][AbstractController] - [addErrorMessage] Adding error message with code: error.message.login.sucess and params: [Ljava.lang.Object;@66aecb0a
+2021-03-18 02:35:46 [INFO ] [tests.HomeTest][AbstractController] - [addErrorMessage] Current locale is pt_BR
+2021-03-18 02:35:46 [INFO ] [tests.HomeTest][AbstractController] - [addErrorMessage] Localized message is: User is logged
+2021-03-18 02:35:46 [INFO ] [tests.HomeTest][JwtAuthenticationController] - [createAuthenticationToken] Login failed
+2021-03-18 02:35:46 [INFO ] [tests.HomeTest][AbstractController] - [addErrorMessage] Adding error message with code: error.message.login.default and params: [Ljava.lang.Object;@6e6fa0be
+2021-03-18 02:35:46 [INFO ] [tests.HomeTest][AbstractController] - [addErrorMessage] Current locale is pt_BR
+2021-03-18 02:35:46 [INFO ] [tests.HomeTest][AbstractController] - [addErrorMessage] Localized message is: It was no possivel to login
+2021-03-18 02:36:16 [INFO ] [tests.HomeTest][JwtUserDetailsService] - [buscaPorEmail] Searching login by email
+2021-03-18 02:36:16 [INFO ] [tests.HomeTest][JwtUserDetailsService] - [buscaPorEmail] Connecting at database
+2021-03-18 02:36:16 [INFO ] [tests.HomeTest][JwtUserDetailsService] - [buscaPorEmail] Query login by email was sent
+2021-03-18 02:36:16 [INFO ] [tests.HomeTest][JwtUserDetailsService] - [userNameAlreadExist] Searching login by username
+2021-03-18 02:36:16 [INFO ] [tests.HomeTest][JwtUserDetailsService] - [userNameAlreadExist] User was not found
+2021-03-18 02:36:16 [INFO ] [tests.HomeTest][JwtUserDetailsService] - [save] Entering at save login method
+2021-03-18 02:36:16 [INFO ] [tests.HomeTest][JwtAuthenticationController] - [saveUser] User is created
+2021-03-18 02:36:16 [INFO ] [tests.HomeTest][AbstractController] - [addFeedbackMessage] Adding feedback message with code: feedback.message.login.created and params: [Ljava.lang.Object;@6080a501
+2021-03-18 02:36:16 [INFO ] [tests.HomeTest][AbstractController] - [addFeedbackMessage] Current locale is pt_BR
+2021-03-18 02:36:16 [INFO ] [tests.HomeTest][AbstractController] - [addFeedbackMessage] Localized message is: Login with username 37442789802 was created.
+2021-03-18 02:36:29 [INFO ] [tests.HomeTest][JwtAuthenticationController] - [createAuthenticationToken] Login process was started
+2021-03-18 02:36:29 [INFO ] [tests.HomeTest][JwtUserDetailsService] - [userNameAlreadExist] Searching login by username
+2021-03-18 02:36:29 [INFO ] [tests.HomeTest][JwtUserDetailsService] - [userNameAlreadExist] User was  found
+2021-03-18 02:36:29 [INFO ] [tests.HomeTest][JwtAuthenticationController] - [createAuthenticationToken] Token was generated as eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiIzNzQ0Mjc4OTgwMiIsImV4cCI6MTYxNjA2Mzc4OSwiaWF0IjoxNjE2MDQ1Nzg5fQ.xe3bq5V9TpMZBHBiEZ1AnKIChoW2KQSwonsbff8HcI16iIrgRgbZzg2r2fsPF2P-8bXntlsM-Zy6NTj2PqWQFA
+2021-03-18 02:36:29 [INFO ] [tests.HomeTest][JwtAuthenticationController] - [createAuthenticationToken] User is logged
+2021-03-18 02:36:29 [INFO ] [tests.HomeTest][AbstractController] - [addErrorMessage] Adding error message with code: error.message.login.sucess and params: [Ljava.lang.Object;@67db8235
+2021-03-18 02:36:29 [INFO ] [tests.HomeTest][AbstractController] - [addErrorMessage] Current locale is pt_BR
+2021-03-18 02:36:29 [INFO ] [tests.HomeTest][AbstractController] - [addErrorMessage] Localized message is: User is logged
+2021-03-18 02:36:29 [INFO ] [tests.HomeTest][JwtAuthenticationController] - [createAuthenticationToken] Login failed
+2021-03-18 02:36:29 [INFO ] [tests.HomeTest][AbstractController] - [addErrorMessage] Adding error message with code: error.message.login.default and params: [Ljava.lang.Object;@6f626c2b
+2021-03-18 02:36:29 [INFO ] [tests.HomeTest][AbstractController] - [addErrorMessage] Current locale is pt_BR
+2021-03-18 02:36:29 [INFO ] [tests.HomeTest][AbstractController] - [addErrorMessage] Localized message is: It was no possivel to login
+2021-03-18 02:38:59 [INFO ] [tests.HomeTest][JwtAuthenticationController] - [createAuthenticationToken] Login process was started
+2021-03-18 02:38:59 [INFO ] [tests.HomeTest][JwtUserDetailsService] - [userNameAlreadExist] Searching login by username
+2021-03-18 02:38:59 [INFO ] [tests.HomeTest][JwtUserDetailsService] - [userNameAlreadExist] User was not found
+2021-03-18 02:38:59 [INFO ] [tests.HomeTest][JwtAuthenticationController] - [createAuthenticationToken] Credentials were wrong
+2021-03-18 02:38:59 [INFO ] [tests.HomeTest][AbstractController] - [addErrorMessage] Adding error message with code: error.message.login.bad.credencials and params: [Ljava.lang.Object;@4005eb44
+2021-03-18 02:38:59 [INFO ] [tests.HomeTest][AbstractController] - [addErrorMessage] Current locale is pt_BR
+2021-03-18 02:38:59 [INFO ] [tests.HomeTest][AbstractController] - [addErrorMessage] Localized message is: Invalid Credentials
+2021-03-18 02:39:04 [INFO ] [tests.HomeTest][JwtUserDetailsService] - [buscaPorEmail] Searching login by email
+2021-03-18 02:39:05 [INFO ] [tests.HomeTest][JwtUserDetailsService] - [buscaPorEmail] Connecting at database
+2021-03-18 02:39:05 [INFO ] [tests.HomeTest][JwtUserDetailsService] - [buscaPorEmail] Query login by email was sent
+2021-03-18 02:39:05 [INFO ] [tests.HomeTest][JwtUserDetailsService] - [userNameAlreadExist] Searching login by username
+2021-03-18 02:39:05 [INFO ] [tests.HomeTest][JwtUserDetailsService] - [userNameAlreadExist] User was not found
+2021-03-18 02:39:05 [INFO ] [tests.HomeTest][JwtUserDetailsService] - [save] Entering at save login method
+2021-03-18 02:39:05 [INFO ] [tests.HomeTest][JwtAuthenticationController] - [saveUser] User is created
+2021-03-18 02:39:05 [INFO ] [tests.HomeTest][AbstractController] - [addFeedbackMessage] Adding feedback message with code: feedback.message.login.created and params: [Ljava.lang.Object;@2e3fcd30
+2021-03-18 02:39:05 [INFO ] [tests.HomeTest][AbstractController] - [addFeedbackMessage] Current locale is pt_BR
+2021-03-18 02:39:05 [INFO ] [tests.HomeTest][AbstractController] - [addFeedbackMessage] Localized message is: Login with username 37442789802 was created.
+2021-03-18 02:39:16 [INFO ] [tests.HomeTest][JwtAuthenticationController] - [createAuthenticationToken] Login process was started
+2021-03-18 02:39:16 [INFO ] [tests.HomeTest][JwtUserDetailsService] - [userNameAlreadExist] Searching login by username
+2021-03-18 02:39:16 [INFO ] [tests.HomeTest][JwtUserDetailsService] - [userNameAlreadExist] User was  found
+2021-03-18 02:39:16 [INFO ] [tests.HomeTest][JwtAuthenticationController] - [createAuthenticationToken] Token was generated as eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiIzNzQ0Mjc4OTgwMiIsImV4cCI6MTYxNjA2Mzk1NiwiaWF0IjoxNjE2MDQ1OTU2fQ.Z8cNB53e5l8793DxNUX7Xrj2G2ylTwvG_ieKflwKD2sBpVt00WeY3tW5eHMNdwYOgUzaFLktesU9gX1OEdSyhg
+2021-03-18 02:39:16 [INFO ] [tests.HomeTest][JwtAuthenticationController] - [createAuthenticationToken] User is logged
+2021-03-18 02:39:16 [INFO ] [tests.HomeTest][AbstractController] - [addErrorMessage] Adding error message with code: error.message.login.sucess and params: [Ljava.lang.Object;@561751f9
+2021-03-18 02:39:16 [INFO ] [tests.HomeTest][AbstractController] - [addErrorMessage] Current locale is pt_BR
+2021-03-18 02:39:16 [INFO ] [tests.HomeTest][AbstractController] - [addErrorMessage] Localized message is: User is logged
+2021-03-18 02:39:16 [INFO ] [tests.HomeTest][JwtAuthenticationController] - [createAuthenticationToken] Login failed
+2021-03-18 02:39:16 [INFO ] [tests.HomeTest][AbstractController] - [addErrorMessage] Adding error message with code: error.message.login.default and params: [Ljava.lang.Object;@12db4805
+2021-03-18 02:39:16 [INFO ] [tests.HomeTest][AbstractController] - [addErrorMessage] Current locale is pt_BR
+2021-03-18 02:39:16 [INFO ] [tests.HomeTest][AbstractController] - [addErrorMessage] Localized message is: It was no possivel to login
+2021-03-18 02:41:12 [INFO ] [tests.HomeTest][JwtAuthenticationController] - [createAuthenticationToken] Login process was started
+2021-03-18 02:41:12 [INFO ] [tests.HomeTest][JwtUserDetailsService] - [userNameAlreadExist] Searching login by username
+2021-03-18 02:41:12 [INFO ] [tests.HomeTest][JwtUserDetailsService] - [userNameAlreadExist] User was not found
+2021-03-18 02:41:12 [INFO ] [tests.HomeTest][JwtAuthenticationController] - [createAuthenticationToken] Credentials were wrong
+2021-03-18 02:41:12 [INFO ] [tests.HomeTest][AbstractController] - [addErrorMessage] Adding error message with code: error.message.login.bad.credencials and params: [Ljava.lang.Object;@c166792
+2021-03-18 02:41:12 [INFO ] [tests.HomeTest][AbstractController] - [addErrorMessage] Current locale is pt_BR
+2021-03-18 02:41:12 [INFO ] [tests.HomeTest][AbstractController] - [addErrorMessage] Localized message is: Invalid Credentials
+2021-03-18 02:41:15 [INFO ] [tests.HomeTest][JwtUserDetailsService] - [buscaPorEmail] Searching login by email
+2021-03-18 02:41:16 [INFO ] [tests.HomeTest][JwtUserDetailsService] - [buscaPorEmail] Connecting at database
+2021-03-18 02:41:16 [INFO ] [tests.HomeTest][JwtUserDetailsService] - [buscaPorEmail] Query login by email was sent
+2021-03-18 02:41:16 [INFO ] [tests.HomeTest][JwtUserDetailsService] - [userNameAlreadExist] Searching login by username
+2021-03-18 02:41:16 [INFO ] [tests.HomeTest][JwtUserDetailsService] - [userNameAlreadExist] User was not found
+2021-03-18 02:41:16 [INFO ] [tests.HomeTest][JwtUserDetailsService] - [save] Entering at save login method
+2021-03-18 02:41:16 [INFO ] [tests.HomeTest][JwtAuthenticationController] - [saveUser] User is created
+2021-03-18 02:41:16 [INFO ] [tests.HomeTest][AbstractController] - [addFeedbackMessage] Adding feedback message with code: feedback.message.login.created and params: [Ljava.lang.Object;@79d761bb
+2021-03-18 02:41:16 [INFO ] [tests.HomeTest][AbstractController] - [addFeedbackMessage] Current locale is pt_BR
+2021-03-18 02:41:16 [INFO ] [tests.HomeTest][AbstractController] - [addFeedbackMessage] Localized message is: Login with username 37442789802 was created.
+2021-03-18 02:41:20 [INFO ] [tests.HomeTest][JwtAuthenticationController] - [createAuthenticationToken] Login process was started
+2021-03-18 02:41:20 [INFO ] [tests.HomeTest][JwtUserDetailsService] - [userNameAlreadExist] Searching login by username
+2021-03-18 02:41:20 [INFO ] [tests.HomeTest][JwtUserDetailsService] - [userNameAlreadExist] User was  found
+2021-03-18 02:41:20 [INFO ] [tests.HomeTest][JwtAuthenticationController] - [createAuthenticationToken] Token was generated as eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiIzNzQ0Mjc4OTgwMiIsImV4cCI6MTYxNjA2NDA4MCwiaWF0IjoxNjE2MDQ2MDgwfQ.eqFZmjGTE9stkVoD6Tsbz4mmEIN11mEz2QwkBqrhhPGyN16UT1LLm-vbGBSUUHjFuvpl_BiI8XBtcppR9oSp4g
+2021-03-18 02:41:20 [INFO ] [tests.HomeTest][JwtAuthenticationController] - [createAuthenticationToken] User is logged
+2021-03-18 02:41:20 [INFO ] [tests.HomeTest][AbstractController] - [addErrorMessage] Adding error message with code: error.message.login.sucess and params: [Ljava.lang.Object;@48e80220
+2021-03-18 02:41:20 [INFO ] [tests.HomeTest][AbstractController] - [addErrorMessage] Current locale is pt_BR
+2021-03-18 02:41:20 [INFO ] [tests.HomeTest][AbstractController] - [addErrorMessage] Localized message is: User is logged
+2021-03-18 02:41:20 [INFO ] [tests.HomeTest][JwtAuthenticationController] - [createAuthenticationToken] Login failed
+2021-03-18 02:41:20 [INFO ] [tests.HomeTest][AbstractController] - [addErrorMessage] Adding error message with code: error.message.login.default and params: [Ljava.lang.Object;@4e7e63fd
+2021-03-18 02:41:20 [INFO ] [tests.HomeTest][AbstractController] - [addErrorMessage] Current locale is pt_BR
+2021-03-18 02:41:20 [INFO ] [tests.HomeTest][AbstractController] - [addErrorMessage] Localized message is: It was no possivel to login
+2021-03-18 02:45:42 [INFO ] [tests.HomeTest][JwtAuthenticationController] - [createAuthenticationToken] Login process was started
+2021-03-18 02:45:42 [INFO ] [tests.HomeTest][JwtUserDetailsService] - [userNameAlreadExist] Searching login by username
+2021-03-18 02:45:42 [INFO ] [tests.HomeTest][JwtUserDetailsService] - [userNameAlreadExist] User was not found
+2021-03-18 02:45:43 [INFO ] [tests.HomeTest][JwtAuthenticationController] - [createAuthenticationToken] Credentials were wrong
+2021-03-18 02:45:43 [INFO ] [tests.HomeTest][AbstractController] - [addErrorMessage] Adding error message with code: error.message.login.bad.credencials and params: [Ljava.lang.Object;@8870185
+2021-03-18 02:45:43 [INFO ] [tests.HomeTest][AbstractController] - [addErrorMessage] Current locale is pt_BR
+2021-03-18 02:45:43 [INFO ] [tests.HomeTest][AbstractController] - [addErrorMessage] Localized message is: Invalid Credentials
+2021-03-18 02:45:47 [INFO ] [tests.HomeTest][JwtUserDetailsService] - [buscaPorEmail] Searching login by email
+2021-03-18 02:45:47 [INFO ] [tests.HomeTest][JwtUserDetailsService] - [buscaPorEmail] Connecting at database
+2021-03-18 02:45:48 [INFO ] [tests.HomeTest][JwtUserDetailsService] - [buscaPorEmail] Query login by email was sent
+2021-03-18 02:45:48 [INFO ] [tests.HomeTest][JwtUserDetailsService] - [userNameAlreadExist] Searching login by username
+2021-03-18 02:45:48 [INFO ] [tests.HomeTest][JwtUserDetailsService] - [userNameAlreadExist] User was not found
+2021-03-18 02:45:48 [INFO ] [tests.HomeTest][JwtUserDetailsService] - [save] Entering at save login method
+2021-03-18 02:45:48 [INFO ] [tests.HomeTest][JwtAuthenticationController] - [saveUser] User is created
+2021-03-18 02:45:48 [INFO ] [tests.HomeTest][AbstractController] - [addFeedbackMessage] Adding feedback message with code: feedback.message.login.created and params: [Ljava.lang.Object;@57de3269
+2021-03-18 02:45:48 [INFO ] [tests.HomeTest][AbstractController] - [addFeedbackMessage] Current locale is pt_BR
+2021-03-18 02:45:48 [INFO ] [tests.HomeTest][AbstractController] - [addFeedbackMessage] Localized message is: Login with username 37442789802 was created.
+2021-03-18 02:45:51 [INFO ] [tests.HomeTest][JwtAuthenticationController] - [createAuthenticationToken] Login process was started
+2021-03-18 02:45:51 [INFO ] [tests.HomeTest][JwtUserDetailsService] - [userNameAlreadExist] Searching login by username
+2021-03-18 02:45:51 [INFO ] [tests.HomeTest][JwtUserDetailsService] - [userNameAlreadExist] User was  found
+2021-03-18 02:45:52 [INFO ] [tests.HomeTest][JwtAuthenticationController] - [createAuthenticationToken] Token was generated as eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiIzNzQ0Mjc4OTgwMiIsImV4cCI6MTYxNjA2NDM1MiwiaWF0IjoxNjE2MDQ2MzUyfQ.u8t9vKYB3djjxd-i2C0YIS1PBxBxm5GFuD9oCPE3ikEL-BB8x2RZZJ852KCoqW0ZneM33Df1G7pZ6JF2XjRHFA
+2021-03-18 02:45:52 [INFO ] [tests.HomeTest][JwtAuthenticationController] - [createAuthenticationToken] User is logged
+2021-03-18 02:45:52 [INFO ] [tests.HomeTest][AbstractController] - [addErrorMessage] Adding error message with code: error.message.login.sucess and params: [Ljava.lang.Object;@40c957a4
+2021-03-18 02:45:52 [INFO ] [tests.HomeTest][AbstractController] - [addErrorMessage] Current locale is pt_BR
+2021-03-18 02:45:52 [INFO ] [tests.HomeTest][AbstractController] - [addErrorMessage] Localized message is: User is logged
+2021-03-18 02:45:52 [INFO ] [tests.HomeTest][JwtAuthenticationController] - [createAuthenticationToken] Login failed
+2021-03-18 02:45:52 [INFO ] [tests.HomeTest][AbstractController] - [addErrorMessage] Adding error message with code: error.message.login.default and params: [Ljava.lang.Object;@30561334
+2021-03-18 02:45:52 [INFO ] [tests.HomeTest][AbstractController] - [addErrorMessage] Current locale is pt_BR
+2021-03-18 02:45:52 [INFO ] [tests.HomeTest][AbstractController] - [addErrorMessage] Localized message is: It was no possivel to login
+2021-03-18 02:46:56 [INFO ] [tests.HomeTest][JwtAuthenticationController] - [createAuthenticationToken] Login process was started
+2021-03-18 02:46:56 [INFO ] [tests.HomeTest][JwtUserDetailsService] - [userNameAlreadExist] Searching login by username
+2021-03-18 02:46:56 [INFO ] [tests.HomeTest][JwtUserDetailsService] - [userNameAlreadExist] User was not found
+2021-03-18 02:46:57 [INFO ] [tests.HomeTest][JwtAuthenticationController] - [createAuthenticationToken] Credentials were wrong
+2021-03-18 02:46:57 [INFO ] [tests.HomeTest][AbstractController] - [addErrorMessage] Adding error message with code: error.message.login.bad.credencials and params: [Ljava.lang.Object;@23fe822a
+2021-03-18 02:46:57 [INFO ] [tests.HomeTest][AbstractController] - [addErrorMessage] Current locale is pt_BR
+2021-03-18 02:46:57 [INFO ] [tests.HomeTest][AbstractController] - [addErrorMessage] Localized message is: Invalid Credentials
+2021-03-18 02:47:00 [INFO ] [tests.HomeTest][JwtUserDetailsService] - [buscaPorEmail] Searching login by email
+2021-03-18 02:47:01 [INFO ] [tests.HomeTest][JwtUserDetailsService] - [buscaPorEmail] Connecting at database
+2021-03-18 02:47:01 [INFO ] [tests.HomeTest][JwtUserDetailsService] - [buscaPorEmail] Query login by email was sent
+2021-03-18 02:47:01 [INFO ] [tests.HomeTest][JwtUserDetailsService] - [userNameAlreadExist] Searching login by username
+2021-03-18 02:47:01 [INFO ] [tests.HomeTest][JwtUserDetailsService] - [userNameAlreadExist] User was not found
+2021-03-18 02:47:01 [INFO ] [tests.HomeTest][JwtUserDetailsService] - [save] Entering at save login method
+2021-03-18 02:47:01 [INFO ] [tests.HomeTest][JwtAuthenticationController] - [saveUser] User is created
+2021-03-18 02:47:01 [INFO ] [tests.HomeTest][AbstractController] - [addFeedbackMessage] Adding feedback message with code: feedback.message.login.created and params: [Ljava.lang.Object;@3222790b
+2021-03-18 02:47:01 [INFO ] [tests.HomeTest][AbstractController] - [addFeedbackMessage] Current locale is pt_BR
+2021-03-18 02:47:01 [INFO ] [tests.HomeTest][AbstractController] - [addFeedbackMessage] Localized message is: Login with username 37442789802 was created.
+2021-03-18 02:47:04 [INFO ] [tests.HomeTest][JwtAuthenticationController] - [createAuthenticationToken] Login process was started
+2021-03-18 02:47:04 [INFO ] [tests.HomeTest][JwtUserDetailsService] - [userNameAlreadExist] Searching login by username
+2021-03-18 02:47:04 [INFO ] [tests.HomeTest][JwtUserDetailsService] - [userNameAlreadExist] User was  found
+2021-03-18 02:47:04 [INFO ] [tests.HomeTest][JwtAuthenticationController] - [createAuthenticationToken] Token was generated as eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiIzNzQ0Mjc4OTgwMiIsImV4cCI6MTYxNjA2NDQyNCwiaWF0IjoxNjE2MDQ2NDI0fQ.jPghmQbxF_Gj45VcEicNTFIZk1xNm5jgvybGYFBqlL5iIDqJlFKF6HK12-_8rkKSey3y1EHBkebFmMFk15dfDQ
+2021-03-18 02:47:04 [INFO ] [tests.HomeTest][JwtAuthenticationController] - [createAuthenticationToken] User is logged
+2021-03-18 02:47:04 [INFO ] [tests.HomeTest][AbstractController] - [addErrorMessage] Adding error message with code: error.message.login.sucess and params: [Ljava.lang.Object;@6c66bc33
+2021-03-18 02:47:04 [INFO ] [tests.HomeTest][AbstractController] - [addErrorMessage] Current locale is pt_BR
+2021-03-18 02:47:04 [INFO ] [tests.HomeTest][AbstractController] - [addErrorMessage] Localized message is: User is logged
+2021-03-18 02:54:41 [INFO ] [tests.HomeTest][JwtAuthenticationController] - [createAuthenticationToken] Login process was started
+2021-03-18 02:54:41 [INFO ] [tests.HomeTest][JwtUserDetailsService] - [userNameAlreadExist] Searching login by username
+2021-03-18 02:54:41 [INFO ] [tests.HomeTest][JwtUserDetailsService] - [userNameAlreadExist] User was not found
+2021-03-18 02:54:42 [INFO ] [tests.HomeTest][JwtAuthenticationController] - [createAuthenticationToken] Credentials were wrong
+2021-03-18 02:54:42 [INFO ] [tests.HomeTest][AbstractController] - [addErrorMessage] Adding error message with code: error.message.login.bad.credencials and params: [Ljava.lang.Object;@3a9139a
+2021-03-18 02:54:42 [INFO ] [tests.HomeTest][AbstractController] - [addErrorMessage] Current locale is pt_BR
+2021-03-18 02:54:42 [INFO ] [tests.HomeTest][AbstractController] - [addErrorMessage] Localized message is: Invalid Credentials
+2021-03-18 02:54:54 [INFO ] [tests.HomeTest][JwtUserDetailsService] - [buscaPorEmail] Searching login by email
+2021-03-18 02:54:54 [INFO ] [tests.HomeTest][JwtUserDetailsService] - [buscaPorEmail] Connecting at database
+2021-03-18 02:54:54 [INFO ] [tests.HomeTest][JwtUserDetailsService] - [buscaPorEmail] Query login by email was sent
+2021-03-18 02:54:54 [INFO ] [tests.HomeTest][JwtUserDetailsService] - [userNameAlreadExist] Searching login by username
+2021-03-18 02:54:54 [INFO ] [tests.HomeTest][JwtUserDetailsService] - [userNameAlreadExist] User was not found
+2021-03-18 02:54:54 [INFO ] [tests.HomeTest][JwtUserDetailsService] - [save] Entering at save login method
+2021-03-18 02:54:54 [INFO ] [tests.HomeTest][JwtAuthenticationController] - [saveUser] User is created
+2021-03-18 02:54:54 [INFO ] [tests.HomeTest][AbstractController] - [addFeedbackMessage] Adding feedback message with code: feedback.message.login.created and params: [Ljava.lang.Object;@3d7deb38
+2021-03-18 02:54:54 [INFO ] [tests.HomeTest][AbstractController] - [addFeedbackMessage] Current locale is pt_BR
+2021-03-18 02:54:54 [INFO ] [tests.HomeTest][AbstractController] - [addFeedbackMessage] Localized message is: Login with username 37442789802 was created.
+2021-03-18 02:55:01 [INFO ] [tests.HomeTest][JwtAuthenticationController] - [createAuthenticationToken] Login process was started
+2021-03-18 02:55:01 [INFO ] [tests.HomeTest][JwtUserDetailsService] - [userNameAlreadExist] Searching login by username
+2021-03-18 02:55:01 [INFO ] [tests.HomeTest][JwtUserDetailsService] - [userNameAlreadExist] User was  found
+2021-03-18 02:55:01 [INFO ] [tests.HomeTest][JwtAuthenticationController] - [createAuthenticationToken] Token was generated as eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiIzNzQ0Mjc4OTgwMiIsImV4cCI6MTYxNjA2NDkwMSwiaWF0IjoxNjE2MDQ2OTAxfQ.TcQ6UdbHbKu-v7qeG8MC5taOlcncybqS7mrFl-_7Uc1HsTj1myzsm8E6rzINhsiz5tw0jDIOaWvcGnXynCh69g
+2021-03-18 02:55:01 [INFO ] [tests.HomeTest][JwtAuthenticationController] - [createAuthenticationToken] User is logged
+2021-03-18 02:55:01 [INFO ] [tests.HomeTest][AbstractController] - [addFeedbackMessage] Adding feedback message with code: error.message.login.sucess and params: [Ljava.lang.Object;@482b0123
+2021-03-18 02:55:01 [INFO ] [tests.HomeTest][AbstractController] - [addFeedbackMessage] Current locale is pt_BR
+2021-03-18 02:55:01 [INFO ] [tests.HomeTest][AbstractController] - [addFeedbackMessage] Localized message is: User is logged
+2021-03-18 11:10:01 [INFO ] [tests.HomeTest][JwtAuthenticationController] - [createAuthenticationToken] Login process was started
+2021-03-18 11:10:01 [INFO ] [tests.HomeTest][JwtUserDetailsService] - [userNameAlreadExist] Searching login by username
+2021-03-18 11:10:01 [INFO ] [tests.HomeTest][JwtUserDetailsService] - [userNameAlreadExist] User was not found
+2021-03-18 11:10:01 [INFO ] [tests.HomeTest][JwtAuthenticationController] - [createAuthenticationToken] Credentials were wrong
+2021-03-18 11:10:01 [INFO ] [tests.HomeTest][AbstractController] - [addErrorMessage] Adding error message with code: error.message.login.bad.credencials and params: [Ljava.lang.Object;@6f56ee72
+2021-03-18 11:10:01 [INFO ] [tests.HomeTest][AbstractController] - [addErrorMessage] Current locale is pt_BR
+2021-03-18 11:10:01 [INFO ] [tests.HomeTest][AbstractController] - [addErrorMessage] Localized message is: Invalid Credentials
+2021-03-18 11:10:11 [INFO ] [tests.HomeTest][JwtUserDetailsService] - [buscaPorEmail] Searching login by email
+2021-03-18 11:10:13 [INFO ] [tests.HomeTest][JwtUserDetailsService] - [buscaPorEmail] Connecting at database
+2021-03-18 11:10:13 [INFO ] [tests.HomeTest][JwtUserDetailsService] - [buscaPorEmail] Query login by email was sent
+2021-03-18 11:10:13 [INFO ] [tests.HomeTest][JwtUserDetailsService] - [userNameAlreadExist] Searching login by username
+2021-03-18 11:10:13 [INFO ] [tests.HomeTest][JwtUserDetailsService] - [userNameAlreadExist] User was not found
+2021-03-18 11:10:13 [INFO ] [tests.HomeTest][JwtUserDetailsService] - [save] Entering at save login method
+2021-03-18 11:10:14 [INFO ] [tests.HomeTest][JwtAuthenticationController] - [saveUser] User is created
+2021-03-18 11:10:14 [INFO ] [tests.HomeTest][AbstractController] - [addFeedbackMessage] Adding feedback message with code: feedback.message.login.created and params: [Ljava.lang.Object;@57de3269
+2021-03-18 11:10:14 [INFO ] [tests.HomeTest][AbstractController] - [addFeedbackMessage] Current locale is pt_BR
+2021-03-18 11:10:14 [INFO ] [tests.HomeTest][AbstractController] - [addFeedbackMessage] Localized message is: Login with username 37442789802 was created.
+2021-03-18 11:10:39 [INFO ] [tests.HomeTest][JwtAuthenticationController] - [createAuthenticationToken] Login process was started
+2021-03-18 11:10:39 [INFO ] [tests.HomeTest][JwtUserDetailsService] - [userNameAlreadExist] Searching login by username
+2021-03-18 11:10:39 [INFO ] [tests.HomeTest][JwtUserDetailsService] - [userNameAlreadExist] User was  found
+2021-03-18 11:10:39 [INFO ] [tests.HomeTest][JwtAuthenticationController] - [createAuthenticationToken] Token was generated as eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiIzNzQ0Mjc4OTgwMiIsImV4cCI6MTYxNjA5NDYzOSwiaWF0IjoxNjE2MDc2NjM5fQ.r-Zv86H25Y9pd0uHiiGkm9prhO1Vl3OpaIQpPRCRlIaKRL3B5PWWwCaxPhPEUUnDGN2KRIcPLH2N-3m7PtXLMg
+2021-03-18 11:10:39 [INFO ] [tests.HomeTest][JwtAuthenticationController] - [createAuthenticationToken] User is logged
+2021-03-18 11:10:39 [INFO ] [tests.HomeTest][AbstractController] - [addFeedbackMessage] Adding feedback message with code: error.message.login.sucess and params: [Ljava.lang.Object;@40c957a4
+2021-03-18 11:10:39 [INFO ] [tests.HomeTest][AbstractController] - [addFeedbackMessage] Current locale is pt_BR
+2021-03-18 11:10:39 [INFO ] [tests.HomeTest][AbstractController] - [addFeedbackMessage] Localized message is: User is logged
+2021-03-18 11:12:06 [INFO ] [tests.HomeTest][JwtAuthenticationController] - [createAuthenticationToken] Login process was started
+2021-03-18 11:12:06 [INFO ] [tests.HomeTest][JwtUserDetailsService] - [userNameAlreadExist] Searching login by username
+2021-03-18 11:12:06 [INFO ] [tests.HomeTest][JwtUserDetailsService] - [userNameAlreadExist] User was not found
+2021-03-18 11:12:06 [INFO ] [tests.HomeTest][JwtAuthenticationController] - [createAuthenticationToken] Credentials were wrong
+2021-03-18 11:12:06 [INFO ] [tests.HomeTest][AbstractController] - [addErrorMessage] Adding error message with code: error.message.login.bad.credencials and params: [Ljava.lang.Object;@7aede32a
+2021-03-18 11:12:06 [INFO ] [tests.HomeTest][AbstractController] - [addErrorMessage] Current locale is pt_BR
+2021-03-18 11:12:06 [INFO ] [tests.HomeTest][AbstractController] - [addErrorMessage] Localized message is: Invalid Credentials
+2021-03-18 11:12:11 [INFO ] [tests.HomeTest][JwtUserDetailsService] - [buscaPorEmail] Searching login by email
+2021-03-18 11:12:11 [INFO ] [tests.HomeTest][JwtUserDetailsService] - [buscaPorEmail] Connecting at database
+2021-03-18 11:12:11 [INFO ] [tests.HomeTest][JwtUserDetailsService] - [buscaPorEmail] Query login by email was sent
+2021-03-18 11:12:11 [INFO ] [tests.HomeTest][JwtUserDetailsService] - [userNameAlreadExist] Searching login by username
+2021-03-18 11:12:11 [INFO ] [tests.HomeTest][JwtUserDetailsService] - [userNameAlreadExist] User was not found
+2021-03-18 11:12:11 [INFO ] [tests.HomeTest][JwtUserDetailsService] - [save] Entering at save login method
+2021-03-18 11:12:12 [INFO ] [tests.HomeTest][JwtAuthenticationController] - [saveUser] User is created
+2021-03-18 11:12:12 [INFO ] [tests.HomeTest][AbstractController] - [addFeedbackMessage] Adding feedback message with code: feedback.message.login.created and params: [Ljava.lang.Object;@3222790b
+2021-03-18 11:12:12 [INFO ] [tests.HomeTest][AbstractController] - [addFeedbackMessage] Current locale is pt_BR
+2021-03-18 11:12:12 [INFO ] [tests.HomeTest][AbstractController] - [addFeedbackMessage] Localized message is: Login with username com.impacta.login.model.UserDto@51604aac was created.
+2021-03-18 11:14:39 [INFO ] [tests.HomeTest][JwtUserDetailsService] - [buscaPorEmail] Searching login by email
+2021-03-18 11:14:40 [INFO ] [tests.HomeTest][JwtUserDetailsService] - [buscaPorEmail] Connecting at database
+2021-03-18 11:14:40 [INFO ] [tests.HomeTest][JwtUserDetailsService] - [buscaPorEmail] Query login by email was sent
+2021-03-18 11:14:40 [INFO ] [tests.HomeTest][JwtUserDetailsService] - [userNameAlreadExist] Searching login by username
+2021-03-18 11:14:40 [INFO ] [tests.HomeTest][JwtUserDetailsService] - [userNameAlreadExist] User was not found
+2021-03-18 11:14:40 [INFO ] [tests.HomeTest][JwtUserDetailsService] - [save] Entering at save login method
+2021-03-18 11:14:40 [INFO ] [tests.HomeTest][JwtAuthenticationController] - [saveUser] User is created
+2021-03-18 11:14:40 [INFO ] [tests.HomeTest][AbstractController] - [addFeedbackMessage] Adding feedback message with code: feedback.message.login.created and params: [Ljava.lang.Object;@130e9b4c
+2021-03-18 11:14:40 [INFO ] [tests.HomeTest][AbstractController] - [addFeedbackMessage] Current locale is pt_BR
+2021-03-18 11:14:40 [INFO ] [tests.HomeTest][AbstractController] - [addFeedbackMessage] Localized message is: Login with username 37442789802 was created.
+2021-03-18 11:14:54 [INFO ] [tests.HomeTest][JwtAuthenticationController] - [createAuthenticationToken] Login process was started
+2021-03-18 11:14:54 [INFO ] [tests.HomeTest][JwtUserDetailsService] - [userNameAlreadExist] Searching login by username
+2021-03-18 11:14:54 [INFO ] [tests.HomeTest][JwtUserDetailsService] - [userNameAlreadExist] User was  found
+2021-03-18 11:14:54 [INFO ] [tests.HomeTest][JwtAuthenticationController] - [createAuthenticationToken] Token was generated as eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiIzNzQ0Mjc4OTgwMiIsImV4cCI6MTYxNjA5NDg5NCwiaWF0IjoxNjE2MDc2ODk0fQ.evZWmnZkCGQcBOLhbMVR1BNalQfWQ7Ti2G4kIFJ_rX6kZTGoYqAaf1oPjaVKrtPsq4L1zbdduWMptnUXyL7lSQ
+2021-03-18 11:14:54 [INFO ] [tests.HomeTest][JwtAuthenticationController] - [createAuthenticationToken] User is logged
+2021-03-18 11:14:54 [INFO ] [tests.HomeTest][AbstractController] - [addFeedbackMessage] Adding feedback message with code: error.message.login.sucess and params: [Ljava.lang.Object;@3f1de453
+2021-03-18 11:14:54 [INFO ] [tests.HomeTest][AbstractController] - [addFeedbackMessage] Current locale is pt_BR
+2021-03-18 11:14:54 [INFO ] [tests.HomeTest][AbstractController] - [addFeedbackMessage] Localized message is: User is logged
+2021-03-18 11:15:20 [INFO ] [tests.HomeTest][JwtUserDetailsService] - [buscaPorEmail] Searching login by email
+2021-03-18 11:15:20 [INFO ] [tests.HomeTest][JwtUserDetailsService] - [buscaPorEmail] Connecting at database
+2021-03-18 11:15:20 [INFO ] [tests.HomeTest][JwtUserDetailsService] - [buscaPorEmail] Query login by email was sent
+2021-03-18 11:15:20 [INFO ] [tests.HomeTest][AbstractController] - [addErrorMessage] Adding error message with code: error.message.email.already.used and params: [Ljava.lang.Object;@3f031b7d
+2021-03-18 11:15:20 [INFO ] [tests.HomeTest][AbstractController] - [addErrorMessage] Current locale is pt_BR
+2021-03-18 11:15:20 [INFO ] [tests.HomeTest][AbstractController] - [addErrorMessage] Localized message is: Email was already used in another account
+2021-03-18 11:19:02 [INFO ] [tests.HomeTest][JwtUserDetailsService] - [buscaPorEmail] Searching login by email
+2021-03-18 11:19:05 [INFO ] [tests.HomeTest][JwtUserDetailsService] - [buscaPorEmail] Connecting at database
+2021-03-18 11:19:05 [INFO ] [tests.HomeTest][JwtUserDetailsService] - [buscaPorEmail] Query login by email was sent
+2021-03-18 11:19:05 [INFO ] [tests.HomeTest][JwtUserDetailsService] - [userNameAlreadExist] Searching login by username
+2021-03-18 11:19:05 [INFO ] [tests.HomeTest][JwtUserDetailsService] - [userNameAlreadExist] User was not found
+2021-03-18 11:19:05 [INFO ] [tests.HomeTest][JwtUserDetailsService] - [save] Entering at save login method
+2021-03-18 11:19:06 [INFO ] [tests.HomeTest][JwtAuthenticationController] - [saveUser] User is created
+2021-03-18 11:19:06 [INFO ] [tests.HomeTest][AbstractController] - [addFeedbackMessage] Adding feedback message with code: feedback.message.login.created and params: [Ljava.lang.Object;@7e6d1b8b
+2021-03-18 11:19:06 [INFO ] [tests.HomeTest][AbstractController] - [addFeedbackMessage] Current locale is pt_BR
+2021-03-18 11:19:06 [INFO ] [tests.HomeTest][AbstractController] - [addFeedbackMessage] Localized message is: Login with username 37442789802 was created.
+2021-03-18 11:19:18 [INFO ] [tests.HomeTest][JwtAuthenticationController] - [createAuthenticationToken] Login process was started
+2021-03-18 11:19:18 [INFO ] [tests.HomeTest][JwtUserDetailsService] - [userNameAlreadExist] Searching login by username
+2021-03-18 11:19:18 [INFO ] [tests.HomeTest][JwtUserDetailsService] - [userNameAlreadExist] User was  found
+2021-03-18 11:19:19 [INFO ] [tests.HomeTest][JwtAuthenticationController] - [createAuthenticationToken] Token was generated as eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiIzNzQ0Mjc4OTgwMiIsImV4cCI6MTYxNjA5NTE1OSwiaWF0IjoxNjE2MDc3MTU5fQ.EqAFqtISJR48rHNaA0zWAjzuzGhGRrFJJqug2gRVlkmyr2iyyjgsnsPiVbDD3yAWSFNX_XkiHB27JLtBREa00A
+2021-03-18 11:19:19 [INFO ] [tests.HomeTest][JwtAuthenticationController] - [createAuthenticationToken] User is logged
+2021-03-18 11:19:19 [INFO ] [tests.HomeTest][AbstractController] - [addFeedbackMessage] Adding feedback message with code: error.message.login.sucess and params: [Ljava.lang.Object;@57a28288
+2021-03-18 11:19:19 [INFO ] [tests.HomeTest][AbstractController] - [addFeedbackMessage] Current locale is pt_BR
+2021-03-18 11:19:19 [INFO ] [tests.HomeTest][AbstractController] - [addFeedbackMessage] Localized message is: User is logged
+2021-03-18 11:19:22 [INFO ] [tests.HomeTest][JwtAuthenticationController] - [createAuthenticationToken] Login process was started
+2021-03-18 11:19:22 [INFO ] [tests.HomeTest][JwtUserDetailsService] - [userNameAlreadExist] Searching login by username
+2021-03-18 11:19:22 [INFO ] [tests.HomeTest][JwtUserDetailsService] - [userNameAlreadExist] User was  found
+2021-03-18 11:19:22 [INFO ] [tests.HomeTest][JwtAuthenticationController] - [createAuthenticationToken] Token was generated as eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiIzNzQ0Mjc4OTgwMiIsImV4cCI6MTYxNjA5NTE2MiwiaWF0IjoxNjE2MDc3MTYyfQ.sXKkDjcSg609r04dkXrGgpJP5IYtMqJKpC9JZj_TiaVaoSQa1PM5gIEUGKomEOvIYzVi0TL4_HneziiOOOK8wg
+2021-03-18 11:19:22 [INFO ] [tests.HomeTest][JwtAuthenticationController] - [createAuthenticationToken] User is logged
+2021-03-18 11:19:22 [INFO ] [tests.HomeTest][AbstractController] - [addFeedbackMessage] Adding feedback message with code: error.message.login.sucess and params: [Ljava.lang.Object;@68e8e88
+2021-03-18 11:19:22 [INFO ] [tests.HomeTest][AbstractController] - [addFeedbackMessage] Current locale is pt_BR
+2021-03-18 11:19:22 [INFO ] [tests.HomeTest][AbstractController] - [addFeedbackMessage] Localized message is: User is logged
+2021-03-18 11:19:25 [INFO ] [tests.HomeTest][JwtUserDetailsService] - [buscaPorEmail] Searching login by email
+2021-03-18 11:19:25 [INFO ] [tests.HomeTest][JwtUserDetailsService] - [buscaPorEmail] Connecting at database
+2021-03-18 11:19:25 [INFO ] [tests.HomeTest][JwtUserDetailsService] - [buscaPorEmail] Query login by email was sent
+2021-03-18 11:19:25 [INFO ] [tests.HomeTest][AbstractController] - [addErrorMessage] Adding error message with code: error.message.email.already.used and params: [Ljava.lang.Object;@373d2a7a
+2021-03-18 11:19:25 [INFO ] [tests.HomeTest][AbstractController] - [addErrorMessage] Current locale is pt_BR
+2021-03-18 11:19:25 [INFO ] [tests.HomeTest][AbstractController] - [addErrorMessage] Localized message is: Email was already used in another account
+2021-03-18 11:19:29 [INFO ] [tests.HomeTest][JwtUserDetailsService] - [buscaPorEmail] Searching login by email
+2021-03-18 11:19:29 [INFO ] [tests.HomeTest][JwtUserDetailsService] - [buscaPorEmail] Connecting at database
+2021-03-18 11:19:29 [INFO ] [tests.HomeTest][JwtUserDetailsService] - [buscaPorEmail] Query login by email was sent
+2021-03-18 11:19:29 [INFO ] [tests.HomeTest][AbstractController] - [addErrorMessage] Adding error message with code: error.message.email.already.used and params: [Ljava.lang.Object;@12a7b9a6
+2021-03-18 11:19:29 [INFO ] [tests.HomeTest][AbstractController] - [addErrorMessage] Current locale is pt_BR
+2021-03-18 11:19:29 [INFO ] [tests.HomeTest][AbstractController] - [addErrorMessage] Localized message is: Email was already used in another account
+2021-03-18 11:19:45 [INFO ] [tests.HomeTest][JwtUserDetailsService] - [buscaPorEmail] Searching login by email
+2021-03-18 11:19:45 [INFO ] [tests.HomeTest][JwtUserDetailsService] - [buscaPorEmail] Connecting at database
+2021-03-18 11:19:45 [INFO ] [tests.HomeTest][JwtUserDetailsService] - [buscaPorEmail] Query login by email was sent
+2021-03-18 11:19:45 [INFO ] [tests.HomeTest][JwtUserDetailsService] - [userNameAlreadExist] Searching login by username
+2021-03-18 11:19:45 [INFO ] [tests.HomeTest][JwtUserDetailsService] - [userNameAlreadExist] User was not found
+2021-03-18 11:19:45 [INFO ] [tests.HomeTest][JwtUserDetailsService] - [save] Entering at save login method
+2021-03-18 11:19:45 [INFO ] [tests.HomeTest][JwtAuthenticationController] - [saveUser] User is created
+2021-03-18 11:19:45 [INFO ] [tests.HomeTest][AbstractController] - [addFeedbackMessage] Adding feedback message with code: feedback.message.login.created and params: [Ljava.lang.Object;@ce113ee
+2021-03-18 11:19:45 [INFO ] [tests.HomeTest][AbstractController] - [addFeedbackMessage] Current locale is pt_BR
+2021-03-18 11:19:45 [INFO ] [tests.HomeTest][AbstractController] - [addFeedbackMessage] Localized message is: Login with username 37442789801 was created.
+2021-03-18 11:20:05 [INFO ] [tests.HomeTest][JwtUserDetailsService] - [buscaPorEmail] Searching login by email
+2021-03-18 11:20:06 [INFO ] [tests.HomeTest][JwtUserDetailsService] - [buscaPorEmail] Connecting at database
+2021-03-18 11:20:06 [INFO ] [tests.HomeTest][JwtUserDetailsService] - [buscaPorEmail] Query login by email was sent
+2021-03-18 11:20:06 [INFO ] [tests.HomeTest][AbstractController] - [addErrorMessage] Adding error message with code: error.message.email.already.used and params: [Ljava.lang.Object;@540e95aa
+2021-03-18 11:20:06 [INFO ] [tests.HomeTest][AbstractController] - [addErrorMessage] Current locale is pt_BR
+2021-03-18 11:20:06 [INFO ] [tests.HomeTest][AbstractController] - [addErrorMessage] Localized message is: Email was already used in another account
+2021-03-18 11:20:11 [INFO ] [tests.HomeTest][JwtUserDetailsService] - [buscaPorEmail] Searching login by email
+2021-03-18 11:20:11 [INFO ] [tests.HomeTest][JwtUserDetailsService] - [buscaPorEmail] Connecting at database
+2021-03-18 11:20:11 [INFO ] [tests.HomeTest][JwtUserDetailsService] - [buscaPorEmail] Query login by email was sent
+2021-03-18 11:20:11 [INFO ] [tests.HomeTest][JwtUserDetailsService] - [userNameAlreadExist] Searching login by username
+2021-03-18 11:20:11 [INFO ] [tests.HomeTest][JwtUserDetailsService] - [userNameAlreadExist] User was  found
+2021-03-18 11:20:11 [INFO ] [tests.HomeTest][AbstractController] - [addErrorMessage] Adding error message with code: error.message.user.has.account and params: [Ljava.lang.Object;@4ba16449
+2021-03-18 11:20:11 [INFO ] [tests.HomeTest][AbstractController] - [addErrorMessage] Current locale is pt_BR
+2021-03-18 11:20:11 [INFO ] [tests.HomeTest][AbstractController] - [addErrorMessage] Localized message is: User already has an account with this credentials
+2021-03-18 11:20:20 [INFO ] [tests.HomeTest][JwtUserDetailsService] - [buscaPorEmail] Searching login by email
+2021-03-18 11:20:20 [INFO ] [tests.HomeTest][JwtUserDetailsService] - [buscaPorEmail] Connecting at database
+2021-03-18 11:20:20 [INFO ] [tests.HomeTest][JwtUserDetailsService] - [buscaPorEmail] Query login by email was sent
+2021-03-18 11:20:20 [INFO ] [tests.HomeTest][JwtUserDetailsService] - [userNameAlreadExist] Searching login by username
+2021-03-18 11:20:20 [INFO ] [tests.HomeTest][JwtUserDetailsService] - [userNameAlreadExist] User was  found
+2021-03-18 11:20:20 [INFO ] [tests.HomeTest][AbstractController] - [addErrorMessage] Adding error message with code: error.message.user.has.account and params: [Ljava.lang.Object;@35a0eeb6
+2021-03-18 11:20:20 [INFO ] [tests.HomeTest][AbstractController] - [addErrorMessage] Current locale is pt_BR
+2021-03-18 11:20:20 [INFO ] [tests.HomeTest][AbstractController] - [addErrorMessage] Localized message is: User already has an account with this credentials
+2021-03-18 11:20:27 [INFO ] [tests.HomeTest][JwtAuthenticationController] - [createAuthenticationToken] Login process was started
+2021-03-18 11:20:27 [INFO ] [tests.HomeTest][JwtUserDetailsService] - [userNameAlreadExist] Searching login by username
+2021-03-18 11:20:27 [INFO ] [tests.HomeTest][JwtUserDetailsService] - [userNameAlreadExist] User was  found
+2021-03-18 11:20:27 [INFO ] [tests.HomeTest][JwtAuthenticationController] - [createAuthenticationToken] Credentials were wrong
+2021-03-18 11:20:27 [INFO ] [tests.HomeTest][AbstractController] - [addErrorMessage] Adding error message with code: error.message.login.bad.credencials and params: [Ljava.lang.Object;@45192c69
+2021-03-18 11:20:27 [INFO ] [tests.HomeTest][AbstractController] - [addErrorMessage] Current locale is pt_BR
+2021-03-18 11:20:27 [INFO ] [tests.HomeTest][AbstractController] - [addErrorMessage] Localized message is: Invalid Credentials
+2021-03-18 11:20:32 [INFO ] [tests.HomeTest][JwtAuthenticationController] - [createAuthenticationToken] Login process was started
+2021-03-18 11:20:32 [INFO ] [tests.HomeTest][JwtUserDetailsService] - [userNameAlreadExist] Searching login by username
+2021-03-18 11:20:32 [INFO ] [tests.HomeTest][JwtUserDetailsService] - [userNameAlreadExist] User was not found
+2021-03-18 11:20:32 [INFO ] [tests.HomeTest][JwtAuthenticationController] - [createAuthenticationToken] Credentials were wrong
+2021-03-18 11:20:32 [INFO ] [tests.HomeTest][AbstractController] - [addErrorMessage] Adding error message with code: error.message.login.bad.credencials and params: [Ljava.lang.Object;@5f42791b
+2021-03-18 11:20:32 [INFO ] [tests.HomeTest][AbstractController] - [addErrorMessage] Current locale is pt_BR
+2021-03-18 11:20:32 [INFO ] [tests.HomeTest][AbstractController] - [addErrorMessage] Localized message is: Invalid Credentials
+2021-03-18 11:20:39 [INFO ] [tests.HomeTest][JwtAuthenticationController] - [createAuthenticationToken] Login process was started
+2021-03-18 11:20:39 [INFO ] [tests.HomeTest][JwtUserDetailsService] - [userNameAlreadExist] Searching login by username
+2021-03-18 11:20:39 [INFO ] [tests.HomeTest][JwtUserDetailsService] - [userNameAlreadExist] User was  found
+2021-03-18 11:20:39 [INFO ] [tests.HomeTest][JwtAuthenticationController] - [createAuthenticationToken] Token was generated as eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiIzNzQ0Mjc4OTgwMiIsImV4cCI6MTYxNjA5NTIzOSwiaWF0IjoxNjE2MDc3MjM5fQ.Mt3xbu8Yim6l4Ksbm5xyMX9d9QbUx0F_i1vUqDIgOij-d3huJ1XgABf4G5sK83-JyiUOkIOsnAVXjNgEMpUekA
+2021-03-18 11:20:39 [INFO ] [tests.HomeTest][JwtAuthenticationController] - [createAuthenticationToken] User is logged
+2021-03-18 11:20:39 [INFO ] [tests.HomeTest][AbstractController] - [addFeedbackMessage] Adding feedback message with code: error.message.login.sucess and params: [Ljava.lang.Object;@bba0726
+2021-03-18 11:20:39 [INFO ] [tests.HomeTest][AbstractController] - [addFeedbackMessage] Current locale is pt_BR
+2021-03-18 11:20:39 [INFO ] [tests.HomeTest][AbstractController] - [addFeedbackMessage] Localized message is: User is logged
+2021-03-19 13:37:49 [INFO ] [tests.HomeTest][AbstractController] - [addErrorMessage] Adding error message with code: error.message.username.not.blank and params: [Ljava.lang.Object;@18fdb381
+2021-03-19 13:37:49 [INFO ] [tests.HomeTest][AbstractController] - [addErrorMessage] Current locale is pt_BR
+2021-03-19 13:37:49 [INFO ] [tests.HomeTest][AbstractController] - [addErrorMessage] Localized message is: Cpf should not be empty
+2021-03-19 13:38:02 [INFO ] [tests.HomeTest][AbstractController] - [addErrorMessage] Adding error message with code: error.message.username.not.blank and params: [Ljava.lang.Object;@3c23a28c
+2021-03-19 13:38:02 [INFO ] [tests.HomeTest][AbstractController] - [addErrorMessage] Current locale is pt_BR
+2021-03-19 13:38:02 [INFO ] [tests.HomeTest][AbstractController] - [addErrorMessage] Localized message is: Cpf should not be empty
+2021-03-19 13:38:09 [INFO ] [tests.HomeTest][AbstractController] - [addErrorMessage] Adding error message with code: error.message.username.not.blank and params: [Ljava.lang.Object;@552d351
+2021-03-19 13:38:09 [INFO ] [tests.HomeTest][AbstractController] - [addErrorMessage] Current locale is pt_BR
+2021-03-19 13:38:09 [INFO ] [tests.HomeTest][AbstractController] - [addErrorMessage] Localized message is: Cpf should not be empty
+2021-03-19 13:38:31 [INFO ] [tests.HomeTest][JwtUserDetailsService] - [save] Entering at save login method
+2021-03-19 13:38:32 [INFO ] [tests.HomeTest][AbstractController] - [addErrorMessage] Adding error message with code: error.message.login.was.not.created and params: [Ljava.lang.Object;@29ab84f9
+2021-03-19 13:38:32 [INFO ] [tests.HomeTest][AbstractController] - [addErrorMessage] Current locale is pt_BR
+2021-03-19 13:38:32 [INFO ] [tests.HomeTest][AbstractController] - [addErrorMessage] Localized message is: Person with name 37442789806 was not created.
+2021-03-19 13:39:54 [INFO ] [tests.HomeTest][JwtUserDetailsService] - [save] Entering at save login method
+2021-03-19 13:39:55 [INFO ] [tests.HomeTest][AbstractController] - [addErrorMessage] Adding error message with code: error.message.login.was.not.created and params: [Ljava.lang.Object;@1bcaa22e
+2021-03-19 13:39:55 [INFO ] [tests.HomeTest][AbstractController] - [addErrorMessage] Current locale is pt_BR
+2021-03-19 13:39:55 [INFO ] [tests.HomeTest][AbstractController] - [addErrorMessage] Localized message is: Person with name 37442789806 was not created.
+2021-03-19 13:41:10 [INFO ] [tests.HomeTest][JwtUserDetailsService] - [save] Entering at save login method
+2021-03-19 13:41:10 [INFO ] [tests.HomeTest][AbstractController] - [addErrorMessage] Adding error message with code: error.message.login.was.not.created and params: [Ljava.lang.Object;@5788fa1a
+2021-03-19 13:41:10 [INFO ] [tests.HomeTest][AbstractController] - [addErrorMessage] Current locale is pt_BR
+2021-03-19 13:41:10 [INFO ] [tests.HomeTest][AbstractController] - [addErrorMessage] Localized message is: Person with name 37442789806 was not created.
+2021-03-19 13:41:36 [INFO ] [tests.HomeTest][JwtUserDetailsService] - [save] Entering at save login method
+2021-03-19 13:41:37 [INFO ] [tests.HomeTest][JwtAuthenticationController] - [saveUser] User is created
+2021-03-19 13:41:37 [INFO ] [tests.HomeTest][AbstractController] - [addFeedbackMessage] Adding feedback message with code: feedback.message.login.created and params: [Ljava.lang.Object;@31063ad1
+2021-03-19 13:41:37 [INFO ] [tests.HomeTest][AbstractController] - [addFeedbackMessage] Current locale is pt_BR
+2021-03-19 13:41:37 [INFO ] [tests.HomeTest][AbstractController] - [addFeedbackMessage] Localized message is: Login with username 37442789806 was created.
+2021-03-19 13:44:58 [INFO ] [tests.HomeTest][JwtUserDetailsService] - [save] Entering at save login method
+2021-03-19 13:44:58 [INFO ] [tests.HomeTest][AbstractController] - [addErrorMessage] Adding error message with code: error.message.login.was.not.created and params: [Ljava.lang.Object;@4f6fb700
+2021-03-19 13:44:58 [INFO ] [tests.HomeTest][AbstractController] - [addErrorMessage] Current locale is pt_BR
+2021-03-19 13:44:58 [INFO ] [tests.HomeTest][AbstractController] - [addErrorMessage] Localized message is: Person with name 37442789806 was not created.
+2021-03-19 13:45:08 [INFO ] [tests.HomeTest][JwtUserDetailsService] - [save] Entering at save login method
+2021-03-19 13:45:08 [INFO ] [tests.HomeTest][JwtAuthenticationController] - [saveUser] User is created
+2021-03-19 13:45:08 [INFO ] [tests.HomeTest][AbstractController] - [addFeedbackMessage] Adding feedback message with code: feedback.message.login.created and params: [Ljava.lang.Object;@31989faa
+2021-03-19 13:45:08 [INFO ] [tests.HomeTest][AbstractController] - [addFeedbackMessage] Current locale is pt_BR
+2021-03-19 13:45:08 [INFO ] [tests.HomeTest][AbstractController] - [addFeedbackMessage] Localized message is: Login with username 37442789803 was created.
+2021-03-19 13:45:41 [INFO ] [tests.HomeTest][JwtUserDetailsService] - [save] Entering at save login method
+2021-03-19 13:45:41 [INFO ] [tests.HomeTest][AbstractController] - [addErrorMessage] Adding error message with code: error.message.login.was.not.created and params: [Ljava.lang.Object;@549ca233
+2021-03-19 13:45:41 [INFO ] [tests.HomeTest][AbstractController] - [addErrorMessage] Current locale is pt_BR
+2021-03-19 13:45:41 [INFO ] [tests.HomeTest][AbstractController] - [addErrorMessage] Localized message is: Person with name 37442789803 was not created.
+2021-03-19 13:45:44 [INFO ] [tests.HomeTest][JwtUserDetailsService] - [save] Entering at save login method
+2021-03-19 13:45:44 [INFO ] [tests.HomeTest][AbstractController] - [addErrorMessage] Adding error message with code: error.message.login.was.not.created and params: [Ljava.lang.Object;@55d9e183
+2021-03-19 13:45:44 [INFO ] [tests.HomeTest][AbstractController] - [addErrorMessage] Current locale is pt_BR
+2021-03-19 13:45:44 [INFO ] [tests.HomeTest][AbstractController] - [addErrorMessage] Localized message is: Person with name 37442789803 was not created.
+2021-03-19 13:45:50 [INFO ] [tests.HomeTest][JwtUserDetailsService] - [save] Entering at save login method
+2021-03-19 13:45:50 [INFO ] [tests.HomeTest][AbstractController] - [addErrorMessage] Adding error message with code: error.message.login.was.not.created and params: [Ljava.lang.Object;@4f2105a1
+2021-03-19 13:45:50 [INFO ] [tests.HomeTest][AbstractController] - [addErrorMessage] Current locale is pt_BR
+2021-03-19 13:45:50 [INFO ] [tests.HomeTest][AbstractController] - [addErrorMessage] Localized message is: Person with name 37442789805 was not created.
+2021-03-19 13:45:54 [INFO ] [tests.HomeTest][JwtUserDetailsService] - [save] Entering at save login method
+2021-03-19 13:45:54 [INFO ] [tests.HomeTest][JwtAuthenticationController] - [saveUser] User is created
+2021-03-19 13:45:54 [INFO ] [tests.HomeTest][AbstractController] - [addFeedbackMessage] Adding feedback message with code: feedback.message.login.created and params: [Ljava.lang.Object;@32426bd2
+2021-03-19 13:45:54 [INFO ] [tests.HomeTest][AbstractController] - [addFeedbackMessage] Current locale is pt_BR
+2021-03-19 13:45:54 [INFO ] [tests.HomeTest][AbstractController] - [addFeedbackMessage] Localized message is: Login with username 37442789805 was created.
+2021-03-19 13:46:50 [INFO ] [tests.HomeTest][JwtUserDetailsService] - [save] Entering at save login method
+2021-03-19 13:46:50 [INFO ] [tests.HomeTest][JwtAuthenticationController] - [saveUser] User is created
+2021-03-19 13:46:50 [INFO ] [tests.HomeTest][AbstractController] - [addFeedbackMessage] Adding feedback message with code: feedback.message.login.created and params: [Ljava.lang.Object;@2bac79ca
+2021-03-19 13:46:50 [INFO ] [tests.HomeTest][AbstractController] - [addFeedbackMessage] Current locale is pt_BR
+2021-03-19 13:46:50 [INFO ] [tests.HomeTest][AbstractController] - [addFeedbackMessage] Localized message is: Login with username 37442789801 was created.
+2021-03-19 13:47:08 [INFO ] [tests.HomeTest][JwtUserDetailsService] - [save] Entering at save login method
+2021-03-19 13:47:08 [INFO ] [tests.HomeTest][AbstractController] - [addErrorMessage] Adding error message with code: error.message.login.was.not.created and params: [Ljava.lang.Object;@5788fa1a
+2021-03-19 13:47:08 [INFO ] [tests.HomeTest][AbstractController] - [addErrorMessage] Current locale is pt_BR
+2021-03-19 13:47:08 [INFO ] [tests.HomeTest][AbstractController] - [addErrorMessage] Localized message is: Person with name 37442789801 was not created.
+2021-03-19 13:47:18 [INFO ] [tests.HomeTest][JwtUserDetailsService] - [save] Entering at save login method
+2021-03-19 13:47:18 [INFO ] [tests.HomeTest][JwtAuthenticationController] - [saveUser] User is created
+2021-03-19 13:47:18 [INFO ] [tests.HomeTest][AbstractController] - [addFeedbackMessage] Adding feedback message with code: feedback.message.login.created and params: [Ljava.lang.Object;@61c79ccd
+2021-03-19 13:47:18 [INFO ] [tests.HomeTest][AbstractController] - [addFeedbackMessage] Current locale is pt_BR
+2021-03-19 13:47:18 [INFO ] [tests.HomeTest][AbstractController] - [addFeedbackMessage] Localized message is: Login with username 37442789800 was created.
+2021-03-19 13:50:14 [INFO ] [tests.HomeTest][JwtUserDetailsService] - [save] Entering at save login method
+2021-03-19 13:50:15 [INFO ] [tests.HomeTest][JwtAuthenticationController] - [saveUser] User is created
+2021-03-19 13:50:15 [INFO ] [tests.HomeTest][AbstractController] - [addFeedbackMessage] Adding feedback message with code: feedback.message.login.created and params: [Ljava.lang.Object;@1e7525da
+2021-03-19 13:50:15 [INFO ] [tests.HomeTest][AbstractController] - [addFeedbackMessage] Current locale is pt_BR
+2021-03-19 13:50:15 [INFO ] [tests.HomeTest][AbstractController] - [addFeedbackMessage] Localized message is: Login with username 37442789800 was created.
+2021-03-19 13:50:57 [INFO ] [tests.HomeTest][JwtUserDetailsService] - [save] Entering at save login method
+2021-03-19 13:50:57 [INFO ] [tests.HomeTest][AbstractController] - [addErrorMessage] Adding error message with code: error.message.login.was.not.created and params: [Ljava.lang.Object;@5988f746
+2021-03-19 13:50:57 [INFO ] [tests.HomeTest][AbstractController] - [addErrorMessage] Current locale is pt_BR
+2021-03-19 13:50:57 [INFO ] [tests.HomeTest][AbstractController] - [addErrorMessage] Localized message is: Person with name 37442789800 was not created.
+2021-03-19 13:51:09 [INFO ] [tests.HomeTest][JwtUserDetailsService] - [save] Entering at save login method
+2021-03-19 13:51:09 [INFO ] [tests.HomeTest][JwtAuthenticationController] - [saveUser] User is created
+2021-03-19 13:51:09 [INFO ] [tests.HomeTest][AbstractController] - [addFeedbackMessage] Adding feedback message with code: feedback.message.login.created and params: [Ljava.lang.Object;@6829571b
+2021-03-19 13:51:09 [INFO ] [tests.HomeTest][AbstractController] - [addFeedbackMessage] Current locale is pt_BR
+2021-03-19 13:51:09 [INFO ] [tests.HomeTest][AbstractController] - [addFeedbackMessage] Localized message is: Login with username 37442789811 was created.
+2021-03-19 13:51:48 [INFO ] [tests.HomeTest][JwtUserDetailsService] - [save] Entering at save login method
+2021-03-19 13:51:49 [INFO ] [tests.HomeTest][JwtAuthenticationController] - [saveUser] User is created
+2021-03-19 13:51:49 [INFO ] [tests.HomeTest][AbstractController] - [addFeedbackMessage] Adding feedback message with code: feedback.message.login.created and params: [Ljava.lang.Object;@1a48cbab
+2021-03-19 13:51:49 [INFO ] [tests.HomeTest][AbstractController] - [addFeedbackMessage] Current locale is pt_BR
+2021-03-19 13:51:49 [INFO ] [tests.HomeTest][AbstractController] - [addFeedbackMessage] Localized message is: Login with username 37442789815 was created.
+2021-03-19 13:54:31 [INFO ] [tests.HomeTest][JwtUserDetailsService] - [save] Entering at save login method
+2021-03-19 13:54:32 [INFO ] [tests.HomeTest][AbstractController] - [addErrorMessage] Adding error message with code: error.message.login.was.not.created and params: [Ljava.lang.Object;@1e59fb4
+2021-03-19 13:54:32 [INFO ] [tests.HomeTest][AbstractController] - [addErrorMessage] Current locale is pt_BR
+2021-03-19 13:54:32 [INFO ] [tests.HomeTest][AbstractController] - [addErrorMessage] Localized message is: Person with name 37442789815 was not created.
+2021-03-19 13:54:38 [INFO ] [tests.HomeTest][JwtUserDetailsService] - [save] Entering at save login method
+2021-03-19 13:54:38 [INFO ] [tests.HomeTest][JwtAuthenticationController] - [saveUser] User is created
+2021-03-19 13:54:38 [INFO ] [tests.HomeTest][AbstractController] - [addFeedbackMessage] Adding feedback message with code: feedback.message.login.created and params: [Ljava.lang.Object;@2cf6e35a
+2021-03-19 13:54:38 [INFO ] [tests.HomeTest][AbstractController] - [addFeedbackMessage] Current locale is pt_BR
+2021-03-19 13:54:38 [INFO ] [tests.HomeTest][AbstractController] - [addFeedbackMessage] Localized message is: Login with username 37442789816 was created.
+2021-03-19 13:55:48 [INFO ] [tests.HomeTest][JwtUserDetailsService] - [save] Entering at save login method
+2021-03-19 13:55:49 [INFO ] [tests.HomeTest][AbstractController] - [addErrorMessage] Adding error message with code: error.message.login.was.not.created and params: [Ljava.lang.Object;@fd26aba
+2021-03-19 13:55:49 [INFO ] [tests.HomeTest][AbstractController] - [addErrorMessage] Current locale is pt_BR
+2021-03-19 13:55:49 [INFO ] [tests.HomeTest][AbstractController] - [addErrorMessage] Localized message is: Person with name 37442789816 was not created.
+2021-03-19 13:55:55 [INFO ] [tests.HomeTest][JwtUserDetailsService] - [save] Entering at save login method
+2021-03-19 13:55:55 [INFO ] [tests.HomeTest][JwtAuthenticationController] - [saveUser] User is created
+2021-03-19 13:55:55 [INFO ] [tests.HomeTest][AbstractController] - [addFeedbackMessage] Adding feedback message with code: feedback.message.login.created and params: [Ljava.lang.Object;@466801a0
+2021-03-19 13:55:55 [INFO ] [tests.HomeTest][AbstractController] - [addFeedbackMessage] Current locale is pt_BR
+2021-03-19 13:55:55 [INFO ] [tests.HomeTest][AbstractController] - [addFeedbackMessage] Localized message is: Login with username 37442789817 was created.
+2021-03-19 13:56:40 [INFO ] [tests.HomeTest][JwtUserDetailsService] - [save] Entering at save login method
+2021-03-19 13:56:40 [INFO ] [tests.HomeTest][AbstractController] - [addErrorMessage] Adding error message with code: error.message.login.was.not.created and params: [Ljava.lang.Object;@11631c9
+2021-03-19 13:56:40 [INFO ] [tests.HomeTest][AbstractController] - [addErrorMessage] Current locale is pt_BR
+2021-03-19 13:56:40 [INFO ] [tests.HomeTest][AbstractController] - [addErrorMessage] Localized message is: Person with name 37442789817 was not created.
+2021-03-19 13:56:48 [INFO ] [tests.HomeTest][JwtUserDetailsService] - [save] Entering at save login method
+2021-03-19 13:56:49 [INFO ] [tests.HomeTest][JwtAuthenticationController] - [saveUser] User is created
+2021-03-19 13:56:49 [INFO ] [tests.HomeTest][AbstractController] - [addFeedbackMessage] Adding feedback message with code: feedback.message.login.created and params: [Ljava.lang.Object;@55780801
+2021-03-19 13:56:49 [INFO ] [tests.HomeTest][AbstractController] - [addFeedbackMessage] Current locale is pt_BR
+2021-03-19 13:56:49 [INFO ] [tests.HomeTest][AbstractController] - [addFeedbackMessage] Localized message is: Login with username 37442789818 was created.
+2021-03-19 13:57:28 [INFO ] [tests.HomeTest][JwtUserDetailsService] - [save] Entering at save login method
+2021-03-19 13:57:28 [INFO ] [tests.HomeTest][AbstractController] - [addErrorMessage] Adding error message with code: error.message.login.was.not.created and params: [Ljava.lang.Object;@55d9e183
+2021-03-19 13:57:28 [INFO ] [tests.HomeTest][AbstractController] - [addErrorMessage] Current locale is pt_BR
+2021-03-19 13:57:28 [INFO ] [tests.HomeTest][AbstractController] - [addErrorMessage] Localized message is: Person with name 37442789818 was not created.
+2021-03-19 13:57:38 [INFO ] [tests.HomeTest][JwtUserDetailsService] - [save] Entering at save login method
+2021-03-19 13:57:38 [INFO ] [tests.HomeTest][AbstractController] - [addErrorMessage] Adding error message with code: error.message.login.was.not.created and params: [Ljava.lang.Object;@6a58097
+2021-03-19 13:57:38 [INFO ] [tests.HomeTest][AbstractController] - [addErrorMessage] Current locale is pt_BR
+2021-03-19 13:57:38 [INFO ] [tests.HomeTest][AbstractController] - [addErrorMessage] Localized message is: Person with name 37442789820 was not created.
+2021-03-19 13:57:46 [INFO ] [tests.HomeTest][JwtUserDetailsService] - [save] Entering at save login method
+2021-03-19 13:57:46 [INFO ] [tests.HomeTest][JwtAuthenticationController] - [saveUser] User is created
+2021-03-19 13:57:46 [INFO ] [tests.HomeTest][AbstractController] - [addFeedbackMessage] Adding feedback message with code: feedback.message.login.created and params: [Ljava.lang.Object;@bc62242
+2021-03-19 13:57:46 [INFO ] [tests.HomeTest][AbstractController] - [addFeedbackMessage] Current locale is pt_BR
+2021-03-19 13:57:46 [INFO ] [tests.HomeTest][AbstractController] - [addFeedbackMessage] Localized message is: Login with username 37442789829 was created.
+2021-03-19 13:58:49 [INFO ] [tests.HomeTest][JwtUserDetailsService] - [save] Entering at save login method
+2021-03-19 13:58:49 [INFO ] [tests.HomeTest][AbstractController] - [addErrorMessage] Adding error message with code: error.message.login.was.not.created and params: [Ljava.lang.Object;@699586bd
+2021-03-19 13:58:49 [INFO ] [tests.HomeTest][AbstractController] - [addErrorMessage] Current locale is pt_BR
+2021-03-19 13:58:49 [INFO ] [tests.HomeTest][AbstractController] - [addErrorMessage] Localized message is: Person with name 37442789829 was not created.
+2021-03-19 13:59:00 [INFO ] [tests.HomeTest][JwtUserDetailsService] - [save] Entering at save login method
+2021-03-19 13:59:00 [INFO ] [tests.HomeTest][JwtAuthenticationController] - [saveUser] User is created
+2021-03-19 13:59:00 [INFO ] [tests.HomeTest][AbstractController] - [addFeedbackMessage] Adding feedback message with code: feedback.message.login.created and params: [Ljava.lang.Object;@33d438d4
+2021-03-19 13:59:00 [INFO ] [tests.HomeTest][AbstractController] - [addFeedbackMessage] Current locale is pt_BR
+2021-03-19 13:59:00 [INFO ] [tests.HomeTest][AbstractController] - [addFeedbackMessage] Localized message is: Login with username 37442789830 was created.
+2021-03-19 14:00:19 [INFO ] [tests.HomeTest][JwtUserDetailsService] - [save] Entering at save login method
+2021-03-19 14:00:19 [INFO ] [tests.HomeTest][AbstractController] - [addErrorMessage] Adding error message with code: error.message.login.was.not.created and params: [Ljava.lang.Object;@6d8bacb4
+2021-03-19 14:00:19 [INFO ] [tests.HomeTest][AbstractController] - [addErrorMessage] Current locale is pt_BR
+2021-03-19 14:00:19 [INFO ] [tests.HomeTest][AbstractController] - [addErrorMessage] Localized message is: Person with name 37442789830 was not created.
+2021-03-19 14:10:43 [INFO ] [tests.HomeTest][JwtUserDetailsService] - [save] Entering at save login method
+2021-03-19 14:10:43 [INFO ] [tests.HomeTest][JwtAuthenticationController] - [saveUser] User is created
+2021-03-19 14:10:43 [INFO ] [tests.HomeTest][AbstractController] - [addFeedbackMessage] Adding feedback message with code: feedback.message.login.created and params: [Ljava.lang.Object;@46a5290c
+2021-03-19 14:10:43 [INFO ] [tests.HomeTest][AbstractController] - [addFeedbackMessage] Current locale is pt_BR
+2021-03-19 14:10:43 [INFO ] [tests.HomeTest][AbstractController] - [addFeedbackMessage] Localized message is: Login with username 37442789830 was created.
+2021-03-19 14:12:43 [INFO ] [tests.HomeTest][JwtUserDetailsService] - [save] Entering at save login method
+2021-03-19 14:12:43 [INFO ] [tests.HomeTest][AbstractController] - [addErrorMessage] Adding error message with code: error.message.login.was.not.created and params: [Ljava.lang.Object;@52a7717e
+2021-03-19 14:12:43 [INFO ] [tests.HomeTest][AbstractController] - [addErrorMessage] Current locale is pt_BR
+2021-03-19 14:12:43 [INFO ] [tests.HomeTest][AbstractController] - [addErrorMessage] Localized message is: Person with name 37442789830 was not created.
+2021-03-19 14:13:03 [INFO ] [tests.HomeTest][JwtUserDetailsService] - [save] Entering at save login method
+2021-03-19 14:13:04 [INFO ] [tests.HomeTest][JwtAuthenticationController] - [saveUser] User is created
+2021-03-19 14:13:04 [INFO ] [tests.HomeTest][AbstractController] - [addFeedbackMessage] Adding feedback message with code: feedback.message.login.created and params: [Ljava.lang.Object;@6829571b
+2021-03-19 14:13:04 [INFO ] [tests.HomeTest][AbstractController] - [addFeedbackMessage] Current locale is pt_BR
+2021-03-19 14:13:04 [INFO ] [tests.HomeTest][AbstractController] - [addFeedbackMessage] Localized message is: Login with username 37442789831 was created.
+2021-03-19 14:14:27 [INFO ] [tests.HomeTest][JwtUserDetailsService] - [save] Entering at save login method
+2021-03-19 14:14:27 [INFO ] [tests.HomeTest][AbstractController] - [addErrorMessage] Adding error message with code: error.message.login.was.not.created and params: [Ljava.lang.Object;@619a2d3e
+2021-03-19 14:14:27 [INFO ] [tests.HomeTest][AbstractController] - [addErrorMessage] Current locale is pt_BR
+2021-03-19 14:14:27 [INFO ] [tests.HomeTest][AbstractController] - [addErrorMessage] Localized message is: Person with name 37442789831 was not created.
+2021-03-19 14:14:42 [INFO ] [tests.HomeTest][JwtUserDetailsService] - [save] Entering at save login method
+2021-03-19 14:14:42 [INFO ] [tests.HomeTest][JwtAuthenticationController] - [saveUser] User is created
+2021-03-19 14:14:42 [INFO ] [tests.HomeTest][AbstractController] - [addFeedbackMessage] Adding feedback message with code: feedback.message.login.created and params: [Ljava.lang.Object;@574cd73c
+2021-03-19 14:14:42 [INFO ] [tests.HomeTest][AbstractController] - [addFeedbackMessage] Current locale is pt_BR
+2021-03-19 14:14:42 [INFO ] [tests.HomeTest][AbstractController] - [addFeedbackMessage] Localized message is: Login with username 37442789832 was created.
+2021-03-19 14:16:12 [INFO ] [tests.HomeTest][JwtUserDetailsService] - [save] Entering at save login method
+2021-03-19 14:16:12 [INFO ] [tests.HomeTest][AbstractController] - [addErrorMessage] Adding error message with code: error.message.login.was.not.created and params: [Ljava.lang.Object;@2affa209
+2021-03-19 14:16:12 [INFO ] [tests.HomeTest][AbstractController] - [addErrorMessage] Current locale is pt_BR
+2021-03-19 14:16:12 [INFO ] [tests.HomeTest][AbstractController] - [addErrorMessage] Localized message is: Person with name 37442789832 was not created.
+2021-03-19 14:16:20 [INFO ] [tests.HomeTest][JwtUserDetailsService] - [save] Entering at save login method
+2021-03-19 14:16:20 [INFO ] [tests.HomeTest][JwtAuthenticationController] - [saveUser] User is created
+2021-03-19 14:16:20 [INFO ] [tests.HomeTest][AbstractController] - [addFeedbackMessage] Adding feedback message with code: feedback.message.login.created and params: [Ljava.lang.Object;@afe92d
+2021-03-19 14:16:20 [INFO ] [tests.HomeTest][AbstractController] - [addFeedbackMessage] Current locale is pt_BR
+2021-03-19 14:16:20 [INFO ] [tests.HomeTest][AbstractController] - [addFeedbackMessage] Localized message is: Login with username 37442789833 was created.
+2021-03-19 14:16:54 [INFO ] [tests.HomeTest][JwtUserDetailsService] - [save] Entering at save login method
+2021-03-19 14:16:54 [INFO ] [tests.HomeTest][AbstractController] - [addErrorMessage] Adding error message with code: error.message.login.was.not.created and params: [Ljava.lang.Object;@5d541cff
+2021-03-19 14:16:54 [INFO ] [tests.HomeTest][AbstractController] - [addErrorMessage] Current locale is pt_BR
+2021-03-19 14:16:54 [INFO ] [tests.HomeTest][AbstractController] - [addErrorMessage] Localized message is: Person with name 37442789833 was not created.
+2021-03-19 14:17:03 [INFO ] [tests.HomeTest][JwtUserDetailsService] - [save] Entering at save login method
+2021-03-19 14:17:03 [INFO ] [tests.HomeTest][JwtAuthenticationController] - [saveUser] User is created
+2021-03-19 14:17:03 [INFO ] [tests.HomeTest][AbstractController] - [addFeedbackMessage] Adding feedback message with code: feedback.message.login.created and params: [Ljava.lang.Object;@631627ab
+2021-03-19 14:17:03 [INFO ] [tests.HomeTest][AbstractController] - [addFeedbackMessage] Current locale is pt_BR
+2021-03-19 14:17:03 [INFO ] [tests.HomeTest][AbstractController] - [addFeedbackMessage] Localized message is: Login with username 37442789834 was created.
+2021-03-19 14:19:11 [INFO ] [tests.HomeTest][JwtUserDetailsService] - [save] Entering at save login method
+2021-03-19 14:19:11 [INFO ] [tests.HomeTest][JwtAuthenticationController] - [saveUser] User is created
+2021-03-19 14:19:11 [INFO ] [tests.HomeTest][AbstractController] - [addFeedbackMessage] Adding feedback message with code: feedback.message.login.created and params: [Ljava.lang.Object;@2ada764a
+2021-03-19 14:19:11 [INFO ] [tests.HomeTest][AbstractController] - [addFeedbackMessage] Current locale is pt_BR
+2021-03-19 14:19:11 [INFO ] [tests.HomeTest][AbstractController] - [addFeedbackMessage] Localized message is: Login with username 37442789834 was created.
+2021-03-19 14:20:07 [INFO ] [tests.HomeTest][JwtUserDetailsService] - [save] Entering at save login method
+2021-03-19 14:20:07 [INFO ] [tests.HomeTest][AbstractController] - [addErrorMessage] Adding error message with code: error.message.login.was.not.created and params: [Ljava.lang.Object;@62ff5a47
+2021-03-19 14:20:07 [INFO ] [tests.HomeTest][AbstractController] - [addErrorMessage] Current locale is pt_BR
+2021-03-19 14:20:07 [INFO ] [tests.HomeTest][AbstractController] - [addErrorMessage] Localized message is: Person with name 37442789834 was not created.
+2021-03-19 14:20:22 [INFO ] [tests.HomeTest][JwtUserDetailsService] - [save] Entering at save login method
+2021-03-19 14:20:22 [INFO ] [tests.HomeTest][JwtAuthenticationController] - [saveUser] User is created
+2021-03-19 14:20:22 [INFO ] [tests.HomeTest][AbstractController] - [addFeedbackMessage] Adding feedback message with code: feedback.message.login.created and params: [Ljava.lang.Object;@438eab6a
+2021-03-19 14:20:22 [INFO ] [tests.HomeTest][AbstractController] - [addFeedbackMessage] Current locale is pt_BR
+2021-03-19 14:20:22 [INFO ] [tests.HomeTest][AbstractController] - [addFeedbackMessage] Localized message is: Login with username 37442789835 was created.
