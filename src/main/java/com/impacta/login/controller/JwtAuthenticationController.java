@@ -58,7 +58,6 @@ public class JwtAuthenticationController extends AbstractController {
 			if (user.getDocument() == null || user.getDocument().isEmpty()) {
 				 return new ResponseEntity<>(addErrorMessage(ERROR_MESSAGE_KEY_USERNAME_EMPTY, user.getDocument()),
 						HttpStatus.INTERNAL_SERVER_ERROR);
-
 			}
 			 
 			if (user.getPassword() == null || user.getPassword().isEmpty()) {
