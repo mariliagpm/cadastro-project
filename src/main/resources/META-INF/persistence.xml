@@ -7,7 +7,7 @@
 <persistence-unit name="user_login">
 
     <provider>org.hibernate.jpa.HibernatePersistenceProvider</provider>
-    <class>com.impacta.login.model.PersonDAO</class>
+    <class>com.impacta.cadastro.model.PersonDAO</class>
 
     <properties>
       <property name="javax.persistence.jdbc.driver"
