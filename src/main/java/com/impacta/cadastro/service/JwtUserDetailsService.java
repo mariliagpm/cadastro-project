@@ -7,13 +7,8 @@ import com.impacta.cadastro.repository.UserRepository;
 import org.apache.log4j.Logger; 
 import javax.persistence.Query; 
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.context.MessageSource;
-import org.springframework.security.core.userdetails.UserDetails;
-import org.springframework.security.core.userdetails.UserDetailsService;
-import org.springframework.security.core.userdetails.UsernameNotFoundException;
-import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
-import org.springframework.security.crypto.password.PasswordEncoder;
-import org.springframework.stereotype.Service;
+import org.springframework.context.MessageSource; 
+ import org.springframework.stereotype.Service;
 
 import java.sql.Date; 
 import java.util.ArrayList;
@@ -25,11 +20,10 @@ import javax.persistence.EntityManagerFactory;
 import javax.persistence.Persistence;
 
 @Service
-public class JwtUserDetailsService implements UserDetailsService {
+public class JwtUserDetailsService   {
 	@Autowired
 	private UserRepository userDao;
- 
-	private PasswordEncoder bcryptEncoder;
+  
 
 	@Resource
 	private MessageSource messageSource;
@@ -53,14 +47,13 @@ public class JwtUserDetailsService implements UserDetailsService {
 	}
 
 	public PersonDAO save(PersonDto user) throws Exception {
-		bcryptEncoder=  new BCryptPasswordEncoder();
-				
+	 
 		LOGGER.info("Entering at save login method");
 		PersonDAO newUser = new PersonDAO();
 		newUser.setName(user.getName());
 		newUser.setGender(user.getGender());
-		newUser.setPassword(bcryptEncoder.encode(user.getPassword()));
-		newUser.setPinCard(bcryptEncoder.encode(user.getPinCard()));
+		newUser.setPassword(user.getPassword());
+		newUser.setPinCard(user.getPinCard());
 		newUser.setEmail(user.getEmail());
 		newUser.setDocument(user.getDocument());
 		newUser.setMotherName(user.getMotherName());
@@ -81,10 +74,6 @@ public class JwtUserDetailsService implements UserDetailsService {
 
 	}
 
-	@Override
-	public UserDetails loadUserByUsername(String username) throws UsernameNotFoundException {
-		// TODO Auto-generated method stub
-		return null;
-	}
+	 
 
 }

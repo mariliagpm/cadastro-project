@@ -799,3 +799,7 @@
 2021-03-22 01:04:56 [INFO ] [tests.HomeTest][AbstractController] - [addFeedbackMessage] Current locale is pt_BR
 2021-03-22 01:04:56 [INFO ] [tests.HomeTest][AbstractController] - [addFeedbackMessage] Localized message is: Login with username 37442789830 was created.
 2021-03-22 18:45:13 [INFO ] [tests.HomeTest][JwtUserDetailsService] - [save] Entering at save login method
+2021-03-22 19:24:48 [INFO ] [tests.HomeTest][JwtUserDetailsService] - [save] Entering at save login method
+2021-03-22 19:24:48 [INFO ] [tests.HomeTest][AbstractController] - [addErrorMessage] Adding error message with code: error.message.login.was.not.created and params: [Ljava.lang.Object;@6110b68
+2021-03-22 19:24:48 [INFO ] [tests.HomeTest][AbstractController] - [addErrorMessage] Current locale is pt_BR
+2021-03-22 19:24:48 [INFO ] [tests.HomeTest][AbstractController] - [addErrorMessage] Localized message is: Person with name 37442789830 was not created.
