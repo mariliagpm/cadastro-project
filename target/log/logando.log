@@ -793,3 +793,9 @@
 2021-03-19 14:20:22 [INFO ] [tests.HomeTest][AbstractController] - [addFeedbackMessage] Adding feedback message with code: feedback.message.login.created and params: [Ljava.lang.Object;@438eab6a
 2021-03-19 14:20:22 [INFO ] [tests.HomeTest][AbstractController] - [addFeedbackMessage] Current locale is pt_BR
 2021-03-19 14:20:22 [INFO ] [tests.HomeTest][AbstractController] - [addFeedbackMessage] Localized message is: Login with username 37442789835 was created.
+2021-03-22 01:04:48 [INFO ] [tests.HomeTest][JwtUserDetailsService] - [save] Entering at save login method
+2021-03-22 01:04:56 [INFO ] [tests.HomeTest][JwtAuthenticationController] - [saveUser] User is created
+2021-03-22 01:04:56 [INFO ] [tests.HomeTest][AbstractController] - [addFeedbackMessage] Adding feedback message with code: feedback.message.login.created and params: [Ljava.lang.Object;@67b52512
+2021-03-22 01:04:56 [INFO ] [tests.HomeTest][AbstractController] - [addFeedbackMessage] Current locale is pt_BR
+2021-03-22 01:04:56 [INFO ] [tests.HomeTest][AbstractController] - [addFeedbackMessage] Localized message is: Login with username 37442789830 was created.
+2021-03-22 18:45:13 [INFO ] [tests.HomeTest][JwtUserDetailsService] - [save] Entering at save login method

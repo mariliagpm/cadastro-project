@@ -1,6 +1,5 @@
 package com.impacta.login.controller;
-
-import com.impacta.login.config.JwtTokenUtil;
+ 
 import com.impacta.login.model.JwtRequest; 
 import com.impacta.login.model.PersonDAO;
 import com.impacta.login.model.PersonDto;
@@ -20,18 +19,16 @@ import org.springframework.security.authentication.AuthenticationManager;
 
 @RestController
 @CrossOrigin
-public class JwtAuthenticationController extends AbstractController {
+public class CadastroController extends AbstractController {
 
 	@Autowired
 	private AuthenticationManager authenticationManager;
-
-	@Autowired
-	private JwtTokenUtil jwtTokenUtil;
+ 
 
 	@Autowired
 	private JwtUserDetailsService userDetailsService;
 
-	private static final Logger LOGGER = Logger.getLogger(JwtAuthenticationController.class);
+	private static final Logger LOGGER = Logger.getLogger(CadastroController.class);
 
 	protected static final String FEEDBACK_MESSAGE_KEY_LOGIN_CREATED = "feedback.message.login.created";
 	protected static final String ERROR_MESSAGE_KEY_LOGIN_WAS_NOT_CREATED = "error.message.login.was.not.created";
